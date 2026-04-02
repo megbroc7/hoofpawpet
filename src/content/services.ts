@@ -23,8 +23,8 @@ export const services: Service[] = [
       "Basic manners reinforcement",
       "Photo update after visit",
     ],
-    image: "/images/dog-walking.svg",
-    imageAlt: "Dog on a walk in a Plantation neighborhood",
+    image: "/images/dog-walking.jpg",
+    imageAlt: "Happy black dog with a floral harness smiling on a walk",
   },
   {
     id: "dog-sitting",
@@ -40,8 +40,8 @@ export const services: Service[] = [
       "Outdoor bathroom breaks",
       "Photo and text updates",
     ],
-    image: "/images/pet-sitting.svg",
-    imageAlt: "Happy dog relaxing at home during a pet sitting visit",
+    image: "/images/pet-sitting.jpg",
+    imageAlt: "Dog getting a bubble bath during a pet sitting visit",
   },
   {
     id: "cat-sitting",
@@ -57,8 +57,8 @@ export const services: Service[] = [
       "Health monitoring",
       "Photo updates",
     ],
-    image: "/images/cat-sitting.svg",
-    imageAlt: "Cat being cared for during a pet sitting visit",
+    image: "/images/cat-sitting.jpg",
+    imageAlt: "Black cat snuggled in a blanket during a cat sitting visit",
   },
   {
     id: "puppy-visits",
@@ -74,8 +74,8 @@ export const services: Service[] = [
       "Training guidance",
       "Photo updates",
     ],
-    image: "/images/puppy-visits.svg",
-    imageAlt: "Puppy during a training and socialization visit",
+    image: "/images/puppy-visits.jpg",
+    imageAlt: "Adorable black puppy on a leash in the grass during a puppy visit",
   },
   {
     id: "overnight-sitting",
@@ -91,8 +91,8 @@ export const services: Service[] = [
       "Emergency care coordination",
       "Daily photo updates",
     ],
-    image: "/images/overnight-sitting.svg",
-    imageAlt: "Peaceful pet during an overnight sitting visit",
+    image: "/images/overnight-sitting.jpg",
+    imageAlt: "Two dogs relaxing at home during an overnight pet sitting visit",
   },
   {
     id: "horse-care",
@@ -108,8 +108,8 @@ export const services: Service[] = [
       "Medication administration",
       "Overnight barn sitting available",
     ],
-    image: "/images/horse-care.svg",
-    imageAlt: "Horse in paddock during daily turnout care",
+    image: "/images/horse-care.jpg",
+    imageAlt: "Two horses during daily turnout with fly mask in a green paddock",
   },
   {
     id: "home-care",
@@ -122,8 +122,8 @@ export const services: Service[] = [
       "Plant watering",
       "Trash day assistance",
     ],
-    image: "/images/home-care.svg",
-    imageAlt: "Well-maintained home during a pet sitting visit",
+    image: "/images/home-care.jpg",
+    imageAlt: "Small dog curled up on the couch at home",
   },
 ];
 

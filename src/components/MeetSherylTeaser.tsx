@@ -7,11 +7,11 @@ export default function MeetSherylTeaser() {
       <div className="max-w-4xl mx-auto flex flex-col sm:flex-row items-center gap-8">
         <div className="w-32 h-32 rounded-full overflow-hidden flex-shrink-0 border-4 border-sage">
           <Image
-            src="/images/sheryl-portrait.svg"
+            src="/images/sheryl-portrait.jpg"
             alt="Sheryl, owner of Hoof & Paw Pet Services"
             width={128}
             height={128}
-            className="w-full h-full object-cover"
+            className="w-full h-full object-cover object-top scale-[2] translate-y-[45%]"
           />
         </div>
         <div className="text-center sm:text-left">

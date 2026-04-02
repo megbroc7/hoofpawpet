@@ -13,10 +13,10 @@ export const metadata: Metadata = {
 
 export default function AboutPage() {
   const barnPhotos = [
-    { src: "/images/gallery-1.svg", alt: "Sheryl's horses at the Davie barn" },
-    { src: "/images/gallery-2.svg", alt: "Chickens at Sheryl's barn" },
-    { src: "/images/gallery-3.svg", alt: "Sheryl's dogs at home" },
-    { src: "/images/gallery-4.svg", alt: "Sheryl with her grandson Isaac" },
+    { src: "/images/gallery-1.jpg", alt: "Isaac on a pony with Sheryl at the barn" },
+    { src: "/images/gallery-2.jpg", alt: "Sheryl relaxing outdoors" },
+    { src: "/images/gallery-3.jpg", alt: "Happy dog at the beach in South Florida" },
+    { src: "/images/gallery-4.jpg", alt: "Black cat curled up sleeping on the couch" },
   ];
 
   return (
@@ -36,7 +36,7 @@ export default function AboutPage() {
         <div className="max-w-4xl mx-auto flex flex-col md:flex-row items-center gap-10">
           <div className="w-48 h-48 md:w-64 md:h-64 rounded-2xl overflow-hidden flex-shrink-0 border-4 border-sage/30">
             <Image
-              src="/images/sheryl-hero.svg"
+              src="/images/sheryl-hero.jpg"
               alt="Sheryl with animals at her barn"
               width={256}
               height={256}
