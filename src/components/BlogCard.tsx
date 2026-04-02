@@ -22,21 +22,21 @@ export default function BlogCard({
   });
 
   return (
-    <article className="bg-white rounded-2xl p-8 shadow-md hover:shadow-lg transition-shadow border border-amber-100">
-      <div className="mb-4 flex items-center gap-4 text-sm text-gray-600">
+    <article className="bg-white rounded-xl p-6 border border-beige/50 hover:shadow-md transition-shadow">
+      <div className="mb-3 flex items-center gap-3 text-xs text-body-text/70">
         <time dateTime={date}>{formattedDate}</time>
         <span>·</span>
         <span>{readingTime} min read</span>
       </div>
-      <h2 className="text-2xl font-bold text-gray-900 mb-4">
-        <Link href={`/blog/${slug}`} className="hover:text-amber-600">
+      <h3 className="font-serif text-xl font-bold text-forest mb-3">
+        <Link href={`/blog/${slug}`} className="hover:text-sage transition-colors">
           {title}
         </Link>
-      </h2>
-      <p className="text-gray-700 mb-6 leading-relaxed">{excerpt}</p>
+      </h3>
+      <p className="text-body-text text-sm leading-relaxed mb-4">{excerpt}</p>
       <Link
         href={`/blog/${slug}`}
-        className="text-amber-600 hover:text-amber-700 font-semibold inline-flex items-center gap-2"
+        className="text-sage hover:text-sage-dark font-semibold text-sm"
       >
         Read More →
       </Link>

@@ -1,202 +1,188 @@
 import Link from "next/link";
-import Hero from "@/components/Hero";
-import ServiceCard from "@/components/ServiceCard";
-import { createMetadata } from "@/lib/metadata";
+import Image from "next/image";
+import type { Metadata } from "next";
+import PhoneCTA from "@/components/PhoneCTA";
+import TrustBar from "@/components/TrustBar";
+import TestimonialCard from "@/components/TestimonialCard";
+import MeetSherylTeaser from "@/components/MeetSherylTeaser";
+import StructuredData from "@/components/StructuredData";
+import BlogCard from "@/components/BlogCard";
+import { services } from "@/content/services";
+import { getAllAreas } from "@/content/areas";
+import { getTestimonials } from "@/content/testimonials";
+import { getAllBlogPosts } from "@/content/blog";
+import { localBusinessSchema } from "@/lib/structured-data";
 
-export const metadata = createMetadata();
+export const metadata: Metadata = {
+  title: "Hoof & Paw Pet Services | Pet Sitting & Horse Care in Broward County",
+  description:
+    "Personal pet sitting and horse care by Sheryl in Broward County, FL. Dog walking, cat sitting, overnight care, and horse turnout in Plantation, Davie, Cooper City, Sunrise, and Southwest Ranches. Call (954) 807-1716.",
+};
 
 export default function Home() {
-  const services = [
-    {
-      icon: "🐕",
-      title: "Dog Walking",
-      description:
-        "Professional dog walking with leash walks, yard breaks, water, and photo updates. 20, 30, or 45-minute sessions.",
-    },
-    {
-      icon: "🏠",
-      title: "Dog Sitting",
-      description:
-        "In-home dog care when you're away. Daily visits with exercise, feeding, and updates to keep your pup happy.",
-    },
-    {
-      icon: "🐱",
-      title: "Cat Sitting",
-      description:
-        "Attentive cat care including feeding, litter box maintenance, play, and medication administration if needed.",
-    },
-    {
-      icon: "👶",
-      title: "Puppy Visits",
-      description:
-        "Special care for young pups including potty training support, basic manners reinforcement, and socialization.",
-    },
-    {
-      icon: "🌙",
-      title: "Overnight Pet Sitting",
-      description:
-        "Extended overnight care for your pets. Perfect for vacations, emergencies, or when you need peace of mind.",
-    },
-    {
-      icon: "🐴",
-      title: "Horse Care & Turnout",
-      description:
-        "Comprehensive equine care in Southwest Ranches: turnout, feeding, stall cleaning, medication admin, and more.",
-    },
-  ];
-
-  const whyChooseUs = [
-    {
-      icon: "✓",
-      title: "Insured & Bonded",
-      description: "Full insurance coverage for your peace of mind.",
-    },
-    {
-      icon: "⭐",
-      title: "Experienced Team",
-      description: "Years of experience with dogs, cats, and horses.",
-    },
-    {
-      icon: "📸",
-      title: "Photo Updates",
-      description: "Stay connected with photos and updates from every visit.",
-    },
-    {
-      icon: "📍",
-      title: "Local Expertise",
-      description: "Based in Plantation, serving all of Broward County.",
-    },
-  ];
+  const featuredServices = services.filter((s) =>
+    ["dog-walking", "dog-sitting", "cat-sitting", "horse-care"].includes(s.id)
+  );
+  const areas = getAllAreas();
+  const testimonials = getTestimonials();
+  const latestPosts = getAllBlogPosts().slice(0, 2);
 
   return (
     <>
-      {/* Hero Section */}
-      <Hero
-        title="Dependable Pet & Barn Care"
-        tagline="Professional pet sitting and horse care you can trust. Serving Broward County with insured, experienced care."
-        ctaText="Book a Visit Today"
-        ctaHref="/contact"
-      />
+      <StructuredData data={localBusinessSchema()} />
 
-      {/* Services Overview */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
-        <div className="max-w-7xl mx-auto">
-          <h2 className="text-4xl font-bold text-center mb-12 text-gray-900">
-            Our Services
-          </h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {services.map((service) => (
-              <ServiceCard
-                key={service.title}
-                icon={service.icon}
-                title={service.title}
-                description={service.description}
-              />
-            ))}
-          </div>
-          <div className="text-center mt-12">
+      {/* Hero */}
+      <section className="bg-warm-white py-16 sm:py-20 px-4 sm:px-6">
+        <div className="max-w-3xl mx-auto text-center">
+          <h1 className="font-serif text-4xl sm:text-5xl font-bold text-forest mb-4 leading-tight">
+            Dependable pet care, right in your neighborhood.
+          </h1>
+          <p className="text-body-text text-lg sm:text-xl mb-8 leading-relaxed">
+            Dog walking, pet sitting &amp; horse care in Broward County. Personally
+            handled by Sheryl — insured, experienced, and truly local.
+          </p>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <PhoneCTA variant="primary" />
             <Link
               href="/services"
-              className="text-amber-600 hover:text-amber-700 font-semibold inline-flex items-center gap-2"
+              className="inline-flex items-center justify-center gap-2 border-2 border-sage text-sage hover:bg-sage hover:text-white font-bold py-3 px-6 rounded-lg transition-colors"
             >
-              View All Services →
+              View Services
             </Link>
           </div>
         </div>
       </section>
 
-      {/* Why Choose Us */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-amber-50">
-        <div className="max-w-7xl mx-auto">
-          <h2 className="text-4xl font-bold text-center mb-12 text-gray-900">
-            Why Choose Hoof & Paw?
+      {/* Trust Bar */}
+      <TrustBar />
+
+      {/* Featured Services */}
+      <section className="py-16 px-4 sm:px-6">
+        <div className="max-w-5xl mx-auto">
+          <h2 className="font-serif text-3xl font-bold text-forest text-center mb-10">
+            How Sheryl Can Help
           </h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            {whyChooseUs.map((item) => (
-              <div key={item.title} className="flex gap-6">
-                <div className="text-4xl flex-shrink-0">{item.icon}</div>
-                <div>
-                  <h3 className="font-bold text-xl mb-2 text-gray-900">
-                    {item.title}
-                  </h3>
-                  <p className="text-gray-700">{item.description}</p>
+          <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6">
+            {featuredServices.map((service) => (
+              <Link
+                key={service.id}
+                href={`/services#${service.id}`}
+                className="bg-white rounded-xl border border-beige/50 overflow-hidden hover:shadow-md transition-shadow group"
+              >
+                <div className="aspect-[4/3] overflow-hidden bg-surface">
+                  <Image
+                    src={service.image}
+                    alt={service.imageAlt}
+                    width={400}
+                    height={300}
+                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                  />
                 </div>
+                <div className="p-4">
+                  <h3 className="font-semibold text-forest text-sm sm:text-base">
+                    {service.name}
+                  </h3>
+                  <p className="text-body-text text-xs sm:text-sm mt-1 line-clamp-2">
+                    {service.tagline}
+                  </p>
+                </div>
+              </Link>
+            ))}
+          </div>
+          <p className="text-center mt-6">
+            <Link
+              href="/services"
+              className="text-sage hover:text-sage-dark font-semibold text-sm"
+            >
+              See all services including puppy visits, overnight care &amp; more →
+            </Link>
+          </p>
+        </div>
+      </section>
+
+      {/* Meet Sheryl Teaser */}
+      <MeetSherylTeaser />
+
+      {/* Testimonials */}
+      <section className="py-16 px-4 sm:px-6 bg-surface">
+        <div className="max-w-5xl mx-auto">
+          <h2 className="font-serif text-3xl font-bold text-forest text-center mb-10">
+            What Pet Owners Say
+          </h2>
+          <div className="flex gap-6 overflow-x-auto pb-4 snap-x snap-mandatory sm:grid sm:grid-cols-3 sm:overflow-visible">
+            {testimonials.map((t) => (
+              <div key={t.id} className="snap-start">
+                <TestimonialCard {...t} />
               </div>
             ))}
           </div>
         </div>
       </section>
 
-      {/* Service Areas */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
-        <div className="max-w-7xl mx-auto text-center">
-          <h2 className="text-4xl font-bold mb-8 text-gray-900">
-            Serving Broward County
-          </h2>
-          <div className="grid grid-cols-1 md:grid-cols-5 gap-4 mb-8">
-            {["Plantation", "Davie", "Cooper City", "Sunrise", "Southwest Ranches"].map(
-              (area) => (
-                <div
-                  key={area}
-                  className="bg-amber-50 rounded-lg p-4 border border-amber-200"
-                >
-                  <p className="font-semibold text-gray-900">{area}</p>
-                </div>
-              )
-            )}
-          </div>
-          <p className="text-gray-600 max-w-2xl mx-auto mb-8">
-            We proudly serve Plantation, Davie, Cooper City, Sunrise, and Southwest
-            Ranches. Located in Plantation, we're your local pet care experts.
-          </p>
-        </div>
-      </section>
-
-      {/* Testimonials */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-green-900 text-white">
-        <div className="max-w-7xl mx-auto">
-          <h2 className="text-4xl font-bold text-center mb-12">
-            What Our Clients Say
-          </h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="bg-green-800 rounded-lg p-8">
-              <p className="mb-4 text-green-50">
-                "Hoof & Paw took wonderful care of our dog while we were traveling. The
-                photo updates made us feel so connected. Highly recommended!"
-              </p>
-              <p className="font-semibold">— Sarah M., Plantation</p>
-            </div>
-            <div className="bg-green-800 rounded-lg p-8">
-              <p className="mb-4 text-green-50">
-                "Our horse has never been healthier thanks to the consistent daily
-                turnout care. Professional and knowledgeable team."
-              </p>
-              <p className="font-semibold">— James K., Southwest Ranches</p>
-            </div>
-            <div className="bg-green-800 rounded-lg p-8">
-              <p className="mb-4 text-green-50">
-                "We trust Hoof & Paw completely with our cats. They're reliable, caring,
-                and always go the extra mile."
-              </p>
-              <p className="font-semibold">— Michelle D., Davie</p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* CTA Banner */}
-      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-amber-600 text-white">
+      {/* Areas Served */}
+      <section className="py-16 px-4 sm:px-6">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-3xl font-bold mb-4">Ready to Give Your Pet the Care They Deserve?</h2>
-          <p className="mb-8 text-lg opacity-90">
-            Contact us today to schedule your first visit or learn more about our services.
+          <h2 className="font-serif text-3xl font-bold text-forest mb-8">
+            Serving Your Neighborhood
+          </h2>
+          <div className="flex flex-wrap justify-center gap-3 mb-6">
+            {areas.map((area) => (
+              <Link
+                key={area.slug}
+                href={`/areas/${area.slug}`}
+                className="bg-sage text-white px-4 py-2 rounded-full text-sm font-medium hover:bg-sage-dark transition-colors"
+              >
+                {area.name}
+              </Link>
+            ))}
+          </div>
+          <p className="text-body-text text-sm">
+            Based in Plantation, serving all of Broward County
           </p>
-          <Link
-            href="/contact"
-            className="inline-block bg-white text-amber-600 font-bold py-3 px-8 rounded-lg hover:bg-gray-100 transition-colors"
-          >
-            Get in Touch Today
-          </Link>
+        </div>
+      </section>
+
+      {/* Blog Preview */}
+      {latestPosts.length > 0 && (
+        <section className="py-16 px-4 sm:px-6 bg-surface">
+          <div className="max-w-5xl mx-auto">
+            <h2 className="font-serif text-3xl font-bold text-forest text-center mb-10">
+              Pet Care Tips
+            </h2>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+              {latestPosts.map((post) => (
+                <BlogCard
+                  key={post.id}
+                  title={post.title}
+                  excerpt={post.excerpt}
+                  date={post.date}
+                  slug={post.slug}
+                  readingTime={post.readingTime}
+                />
+              ))}
+            </div>
+            <p className="text-center mt-6">
+              <Link
+                href="/blog"
+                className="text-sage hover:text-sage-dark font-semibold text-sm"
+              >
+                More pet care tips →
+              </Link>
+            </p>
+          </div>
+        </section>
+      )}
+
+      {/* Bottom CTA */}
+      <section className="py-16 px-4 sm:px-6 bg-honey">
+        <div className="max-w-3xl mx-auto text-center">
+          <h2 className="font-serif text-3xl font-bold text-white mb-4">
+            Ready to Meet Sheryl?
+          </h2>
+          <p className="text-white/90 text-lg mb-8">
+            Call or text anytime to schedule your first visit.
+          </p>
+          <PhoneCTA variant="secondary" className="bg-white !text-honey hover:bg-warm-white" />
         </div>
       </section>
     </>
