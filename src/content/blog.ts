@@ -540,79 +540,127 @@ If you have questions about your dog's behavior or just want a caregiver who pay
   {
     id: "10",
     slug: "can-dogs-eat-lizards-in-south-florida-and-what-about-iguanas",
-    title: "Can Dogs Eat Lizards in South Florida? And What About Iguanas?",
+    title:
+      "Are Lizards Poisonous to Dogs in Florida? A Broward County Pet Owner's Complete Guide",
     date: "2026-02-10",
     author: "Hoof & Paw Team",
     excerpt:
-      "South Florida's backyards are full of lizards, and dogs love to chase them. Here's what Broward County pet owners need to know about the real risks when your dog catches one.",
-    content: `If you live in Broward County, you share your yard with a lot of wildlife that doesn't appear on any pet store shelf. Lizards dart across patios, iguanas bask on fences and canal banks, and the occasional exotic species turns up in neighborhoods that back up to green space. For dogs, anything that moves fast is an invitation to chase, and sometimes catch.
+      "Brown anoles, iguanas, geckos, tegus, and Bufo toads: a species-by-species breakdown of what's actually dangerous to your dog in South Florida, what to do if your dog eats a lizard, and how to keep them safe in Broward County.",
+    content: `If you have a dog in Broward County, you've probably watched them lunge at a lizard darting across the patio. South Florida has one of the most diverse reptile populations in the country, and most of it is living in your backyard. The question every local dog owner eventually asks is: what happens if my dog actually catches one?
 
-So what actually happens if your dog eats a lizard? Is it dangerous? And are iguanas a different situation entirely?
+The short answer is that most small Florida lizards are not poisonous to dogs. There are no venomous lizard species in Florida (the only venomous lizards in the United States are the Gila monster and the Mexican beaded lizard, both found in the desert Southwest). But "not venomous" doesn't mean "completely safe." Depending on the species, there are real risks from parasites, bacteria, physical injury, and secondary toxin exposure that Broward County dog owners should understand.
 
-## The Common Lizards You'll See in Broward
+This guide covers every reptile and amphibian your dog is likely to encounter in a South Florida yard, ranked from least to most dangerous.
 
-South Florida has an unusually diverse lizard population, much of it the result of decades of escaped or released exotic pets.
+## Are Anole Lizards Toxic to Dogs?
 
-- **Brown anoles**: The small, fast lizards you see everywhere. Originally from Cuba, now ubiquitous across Florida.
-- **Green anoles**: Native Florida lizards, less common than they used to be due to competition from brown anoles.
-- **Curly-tailed lizards**: Originally from the Bahamas, now well-established in South Florida.
-- **Iguanas**: Green iguanas are invasive and abundant in Broward County, especially near canals, parks, and waterways.
-- **Tegus**: Argentine black-and-white tegus are increasingly common in South Florida and are significantly larger than other local lizards.
-- **Geckos**: Mediterranean house geckos are nocturnal and often found near outdoor lights.
+Brown anoles (Anolis sagrei) are the small, fast lizards you see on every patio, fence, and sidewalk in Broward County. Originally from Cuba, they are now the most common lizard in Florida. Green anoles (Anolis carolinensis) are the native Florida species, though they've become less common due to competition from browns.
 
-## What Happens When a Dog Eats a Small Lizard
+**If your dog eats an anole, the risk is low.** Anoles are not toxic or venomous. A healthy adult dog's digestive system can handle a small lizard without trouble. Most dogs that catch an anole will be fine.
 
-For most small lizards (brown anoles, green anoles, curly-tails), the risk to a healthy adult dog is relatively low. Dogs have acidic digestive systems well-suited to handling small prey. Most dogs that eat a small lizard will experience nothing more dramatic than a brief moment of satisfaction.
+The concerns with repeated lizard hunting are:
 
-That said, there are genuine concerns:
+- **Salmonella**: Anoles and other reptiles can carry Salmonella bacteria on their skin and in their digestive tract. For most healthy adult dogs, this isn't a serious threat, but puppies, senior dogs, and immunocompromised animals face higher risk. It's also a concern for you: wash your hands after handling a dog that has been mouthing lizards. The CDC notes that reptiles are a common source of Salmonella transmission to humans.
+- **Liver flukes**: In Florida specifically, lizards that have eaten infected snails or slugs can carry the liver fluke Platynosomum fastosum. According to UF/IFAS researchers, this is primarily a concern for cats, but dogs with a heavy lizard-hunting habit should be on your vet's radar for screening.
+- **Intestinal parasites**: Any wild-caught prey can carry roundworms, hookworms, or other internal parasites. If your dog hunts lizards regularly, talk to your vet about a more frequent deworming schedule.
 
-### Salmonella
-Lizards can carry Salmonella bacteria. This is more of a concern for the humans handling the dog (wash your hands after contact) than for the dog itself in most cases, but dogs with compromised immune systems, puppies, and senior dogs face higher risk of illness.
+## Are Geckos Poisonous to Dogs?
 
-### Liver Flukes
-In Florida specifically, some lizards, particularly small ones that have eaten infected snails or slugs, can carry liver flukes (Platynosomum fastosum). This is more of a documented concern in cats than dogs, but it's worth being aware of if your dog regularly hunts lizards.
+Tropical house geckos and Mediterranean geckos are common in Broward County, especially around outdoor lighting at night where they hunt insects. They're small, harmless, and not toxic to dogs.
 
-### Parasites
-Any wild-caught prey carries parasite risk. Regular deworming and vet checkups are important if your dog is an enthusiastic lizard hunter.
+The same Salmonella and parasite risks that apply to anoles apply to geckos. If your dog eats a gecko, monitor them for vomiting or diarrhea over the next 24 hours, but serious complications are unlikely.
 
-## Iguanas: A Bigger Animal, Different Risks
+## Are Curly-Tailed Lizards Dangerous to Dogs?
 
-Green iguanas in Broward County can reach four to five feet in length and weigh ten pounds or more. A large dog might catch and kill one, but doing so is not without risk.
+Curly-tailed lizards (Leiocephalus carinatus) are an invasive species originally from the Bahamas that are now well-established across South Florida. They're larger than anoles but still small enough that a dog could easily catch one.
 
-- **Physical injury**: Iguanas have strong tails that can whip with real force, sharp claws, and a powerful bite. A large iguana can injure a dog during a struggle.
-- **Salmonella**: Iguanas are notable Salmonella carriers. Ingesting iguana tissue carries higher risk than eating a small anole.
-- **Toxic exposure**: Iguanas themselves are not venomous, but if a dog eats an iguana that has recently ingested toxic plants (iguanas eat a wide variety of vegetation, some of which is toxic), there's a secondary risk.
+Like anoles and geckos, curly-tails are not venomous or toxic. The risk profile is the same: Salmonella, parasites, and the general principle that eating wild reptiles isn't ideal for your dog's digestive system. A one-time incident is rarely cause for concern with a healthy adult dog.
 
-If your dog catches and eats a significant portion of an iguana, contacting your vet is worth doing, especially if the dog shows any signs of vomiting, lethargy, or diarrhea in the hours afterward.
+## Are Skinks Dangerous to Dogs in Florida?
 
-## Bufo Toads: The Real Emergency
+Broadhead skinks and southeastern five-lined skinks are present throughout South Florida. These smooth, shiny lizards are sometimes brightly colored (juveniles have blue tails), which can make them especially attractive to curious dogs.
 
-While lizards are a moderate concern, Bufo toads (also called cane toads or marine toads) are a genuine emergency in South Florida. These large, warty toads are common in Broward County yards, especially after rain, and their skin secretes bufotoxin, a substance that can cause severe neurological reactions in dogs.
+Skinks are not venomous or poisonous. There is a persistent myth that blue-tailed skinks are toxic, but this is not true. The same parasitic and bacterial risks apply as with other small lizards. If your dog catches a skink, watch for any digestive upset, but there is no toxin to worry about.
 
-### Signs of Bufo Toad Exposure
+## Iguanas and Dogs in South Florida: The Real Risks
+
+Green iguanas (Iguana iguana) are one of South Florida's most visible invasive species. The Florida Fish and Wildlife Conservation Commission (FWC) classifies them as a nonnative invasive and allows year-round removal on private property without a permit. In Broward County, they're everywhere: canal banks, park fences, seawalls, and backyard trees.
+
+An adult green iguana can reach four to six feet in length and weigh over ten pounds. They are not venomous, but they present several real dangers to dogs:
+
+- **Physical injury**: Iguanas defend themselves with powerful tail whips, sharp claws, and a surprisingly strong bite. A large iguana can cause lacerations, puncture wounds, and bruising to a dog's face and mouth. These injuries can become infected quickly in South Florida's warm, humid climate.
+- **Salmonella**: Iguanas are notable Salmonella carriers. The bacterial load from ingesting iguana tissue is higher than from eating a small anole. Vomiting, diarrhea, and lethargy in the hours following ingestion warrant a vet call.
+- **Secondary toxin exposure**: Iguanas eat a wide variety of vegetation, including plants that may be toxic to dogs. If your dog eats iguana tissue and the iguana had recently ingested a toxic plant, your dog can be exposed secondhand.
+- **Dead iguana risks**: During cold snaps, iguanas fall from trees in a torpid state and may die. Dogs that find and eat dead iguanas face additional risks from bacterial decomposition. In February 2026, a South Florida dog owner reported their dog becoming severely ill after contact with a dead iguana, highlighting the dangers of decomposing reptile tissue.
+
+**What to do if your dog catches an iguana**: Check for wounds on your dog's face, mouth, and paws. Rinse any scratches or punctures. Monitor for vomiting, diarrhea, or lethargy over the next 12 to 24 hours. If your dog ate a significant amount of iguana tissue, call your vet.
+
+## Argentine Tegus: The Large Invasive Lizard Dog Owners Should Know About
+
+Argentine black-and-white tegus (Salvator merianae) are an increasingly common invasive species in South Florida. They can grow to over four feet long and are significantly more muscular and powerful than iguanas. The FWC actively monitors tegu populations and encourages reporting sightings.
+
+Tegus are not venomous, but they are large enough to injure a dog in a confrontation. They have strong jaws and sharp teeth. If your dog encounters a tegu, the biggest risk is physical injury rather than toxicity.
+
+## Nile Monitor Lizards in South Florida
+
+Nile monitors (Varanus niloticus) are a large, semi-aquatic lizard species that has established breeding populations in parts of South Florida, particularly along canals. Adults can reach over six feet in length and are aggressive when cornered.
+
+While rare in residential yards, Nile monitors are present in Broward County near waterways. They are strong enough to seriously injure a large dog. If you walk your dog near canals or green spaces, be aware of this species. Do not allow your dog to investigate large lizards near water.
+
+## Bufo Toads (Cane Toads): The True Emergency
+
+Bufo toads, also called cane toads (Rhinella marina), are not lizards, but they're the most dangerous backyard wildlife encounter for dogs in Broward County and must be included in any discussion of reptile and amphibian safety.
+
+Bufo toads secrete bufotoxin from glands behind their eyes. When a dog mouths or bites a Bufo toad, the toxin is absorbed through the mucous membranes of the mouth. According to VCA Animal Hospitals, bufotoxin affects the heart, nervous system, and gastrointestinal tract and can be fatal without treatment.
+
+### Symptoms of Bufo Toad Poisoning in Dogs
 - Excessive drooling or foaming at the mouth
-- Pawing at the face
-- Red or discolored gums
+- Pawing at the face or mouth
+- Bright red gums or mucous membranes
+- Disorientation or staggering
+- Vomiting
 - Seizures
-- Collapse
+- Collapse or loss of consciousness
 
-### What to Do Immediately
-If your dog mouths a Bufo toad, act fast:
-- Rinse the dog's mouth thoroughly with water; use a garden hose and rinse from back to front so the dog doesn't swallow more toxin
-- Wipe the gums and tongue with a damp cloth
-- Call your emergency vet immediately
+### Emergency Steps If Your Dog Mouths a Bufo Toad
+1. **Rinse the mouth immediately.** Use a garden hose or running water. Rinse from the side of the mouth so water flows out rather than down the throat. Continue rinsing for at least 10 minutes.
+2. **Wipe the gums and tongue** with a damp cloth to remove residual toxin.
+3. **Call your emergency vet immediately.** Do not wait to see if symptoms develop. Bufotoxin can escalate from drooling to seizures in minutes.
+4. **Transport to the nearest emergency animal hospital** if symptoms are progressing. In the Broward County area, emergency veterinary clinics that handle Bufo toad cases include facilities in Fort Lauderdale, Plantation, and Davie.
 
-Do not wait to see if symptoms develop before calling. Bufo toad toxicity can escalate quickly, and it is fatal in some cases without treatment.
+Bufo toads are most active at dusk, at night, and after rain. They are attracted to outdoor pet food bowls and lit areas where insects gather.
 
-## Keeping Your Dog Safer in a South Florida Yard
+## What Should I Do If My Dog Ate a Lizard?
 
-- Supervise dogs in the yard at dusk and after rain, when Bufo toads are most active
-- Check the perimeter of your yard before letting dogs out at night in Broward's warmer months
-- Keep dogs on leash near canals, where iguana populations are densest
-- Talk to your vet about regular parasite screening if your dog actively hunts lizards
+Here is a quick reference guide based on what your dog encountered:
 
-Sheryl at Hoof & Paw knows Broward County's wildlife hazards well; it's part of caring for dogs in this part of South Florida. If you want a dog walker or pet sitter who stays alert to local risks, give her a call at **(954) 807-1716)**.`,
-    readingTime: 6,
+| Species | Venomous? | Risk Level | Action |
+|---------|-----------|------------|--------|
+| Brown or green anole | No | Low | Monitor for 24 hours. Vet visit if vomiting/diarrhea |
+| Gecko | No | Low | Monitor for 24 hours |
+| Curly-tailed lizard | No | Low | Monitor for 24 hours |
+| Skink | No | Low | Monitor. Blue tail is NOT toxic |
+| Green iguana | No | Moderate | Check for wounds. Call vet if ate significant tissue |
+| Argentine tegu | No | Moderate | Check for bite injuries. Vet if wounds are deep |
+| Nile monitor | No | High (injury) | Vet visit for any bite or scratch wounds |
+| Bufo/cane toad | Toxic skin | **Emergency** | Rinse mouth, call emergency vet immediately |
+
+## How to Keep Your Dog Safer in a Broward County Yard
+
+- **Supervise at dusk and after rain.** This is when Bufo toads are most active and when iguanas settle into low positions where dogs can reach them.
+- **Check the yard perimeter** before letting dogs out at night, especially during the warmer months from April through October.
+- **Keep dogs on leash near canals and waterways**, where iguana and monitor populations are densest.
+- **Remove outdoor pet food bowls at night.** These attract Bufo toads.
+- **Talk to your vet about parasite screening** if your dog hunts lizards regularly. A fecal test once or twice a year can catch issues early.
+- **Know your nearest emergency vet.** Bufo toad encounters can happen fast, and having the number already in your phone saves critical time.
+- **Report large invasive species.** You can report tegu and Nile monitor sightings to the FWC's Exotic Species Reporting hotline or through the IveGot1 app.
+
+## A Dog Walker Who Knows the Local Risks
+
+Sheryl at Hoof & Paw has been walking and caring for dogs in Broward County for over 20 years. She knows which neighborhoods have active Bufo toad populations, which canal paths have iguana dens, and how to keep dogs safe on every walk. When you hire Hoof & Paw for dog walking or pet sitting in Plantation, Davie, Cooper City, Sunrise, Weston, Pembroke Pines, Hollywood, or Southwest Ranches, you're getting someone who understands the specific risks of caring for animals in South Florida.
+
+If you want a dog walker or pet sitter who stays alert to local wildlife hazards, call or text Sheryl at **(954) 807-1716**.`,
+    readingTime: 12,
   },
   {
     id: "11",
