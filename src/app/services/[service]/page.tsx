@@ -119,11 +119,20 @@ export default async function ServicePage(props: {
             <h2 className="font-serif text-2xl font-bold text-forest mb-6 text-center">
               Happy Walkers
             </h2>
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 max-w-2xl mx-auto">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
               <div className="rounded-xl overflow-hidden border border-beige/30">
                 <Image
                   src="/images/german-shepherd-walk.jpg"
                   alt="Happy German Shepherd smiling on a walk in Broward County"
+                  width={500}
+                  height={600}
+                  className="w-full h-72 object-cover object-top"
+                />
+              </div>
+              <div className="rounded-xl overflow-hidden border border-beige/30">
+                <Image
+                  src="/images/doodle-walk-park.jpg"
+                  alt="Goldendoodle on a leash enjoying a walk at a Broward County park"
                   width={500}
                   height={600}
                   className="w-full h-72 object-cover object-top"
