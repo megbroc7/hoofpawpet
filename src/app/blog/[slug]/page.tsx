@@ -6,6 +6,113 @@ import StructuredData from "@/components/StructuredData";
 import PhoneCTA from "@/components/PhoneCTA";
 import { getBlogPost, getAllBlogPosts } from "@/content/blog";
 import { articleSchema, breadcrumbSchema } from "@/lib/structured-data";
+import React from "react";
+
+/** Parse inline markdown: **bold** */
+function renderInline(text: string): React.ReactNode {
+  const parts = text.split(/(\*\*[^*]+\*\*)/g);
+  return parts.map((part, i) => {
+    if (part.startsWith("**") && part.endsWith("**")) {
+      return <strong key={i}>{part.slice(2, -2)}</strong>;
+    }
+    return part;
+  });
+}
+
+/** Render markdown-ish blog content to React elements */
+function renderBlogContent(content: string): React.ReactNode[] {
+  const lines = content.split("\n");
+  const elements: React.ReactNode[] = [];
+  let i = 0;
+
+  while (i < lines.length) {
+    const line = lines[i];
+
+    // Table: starts with |
+    if (line.startsWith("|")) {
+      const tableLines: string[] = [];
+      while (i < lines.length && lines[i].startsWith("|")) {
+        tableLines.push(lines[i]);
+        i++;
+      }
+      // Filter out separator rows (|---|---|)
+      const dataRows = tableLines.filter((r) => !r.match(/^\|[\s-|]+\|$/));
+      if (dataRows.length > 0) {
+        const headerCells = dataRows[0].split("|").filter((c) => c.trim());
+        const bodyRows = dataRows.slice(1);
+        elements.push(
+          <div key={`table-${i}`} className="overflow-x-auto my-6">
+            <table className="w-full text-sm border border-beige/50 rounded-lg overflow-hidden">
+              <thead>
+                <tr className="bg-surface">
+                  {headerCells.map((cell, ci) => (
+                    <th
+                      key={ci}
+                      className="text-left text-forest font-semibold px-4 py-2 border-b border-beige/50"
+                    >
+                      {renderInline(cell.trim())}
+                    </th>
+                  ))}
+                </tr>
+              </thead>
+              <tbody>
+                {bodyRows.map((row, ri) => {
+                  const cells = row.split("|").filter((c) => c.trim());
+                  return (
+                    <tr key={ri} className={ri % 2 === 0 ? "bg-white" : "bg-surface/50"}>
+                      {cells.map((cell, ci) => (
+                        <td key={ci} className="px-4 py-2 border-b border-beige/30">
+                          {renderInline(cell.trim())}
+                        </td>
+                      ))}
+                    </tr>
+                  );
+                })}
+              </tbody>
+            </table>
+          </div>
+        );
+      }
+      continue;
+    }
+
+    if (line.startsWith("## ")) {
+      elements.push(
+        <h2 key={i} className="font-serif text-2xl font-bold text-forest mt-10 mb-4">
+          {renderInline(line.replace("## ", ""))}
+        </h2>
+      );
+    } else if (line.startsWith("### ")) {
+      elements.push(
+        <h3 key={i} className="font-serif text-xl font-bold text-forest mt-8 mb-3">
+          {renderInline(line.replace("### ", ""))}
+        </h3>
+      );
+    } else if (line.match(/^\d+\.\s/)) {
+      elements.push(
+        <li key={i} className="ml-6 mb-2 list-decimal">
+          {renderInline(line.replace(/^\d+\.\s/, ""))}
+        </li>
+      );
+    } else if (line.startsWith("- ")) {
+      elements.push(
+        <li key={i} className="ml-6 mb-2 list-disc">
+          {renderInline(line.replace("- ", ""))}
+        </li>
+      );
+    } else if (line.trim() === "") {
+      elements.push(<br key={i} />);
+    } else {
+      elements.push(
+        <p key={i} className="mb-4">
+          {renderInline(line)}
+        </p>
+      );
+    }
+    i++;
+  }
+  return elements;
+}
 
 export async function generateStaticParams() {
   return getAllBlogPosts().map((post) => ({ slug: post.slug }));
@@ -82,41 +189,7 @@ export default async function BlogPostPage(props: {
       {/* Content */}
       <article className="py-12 px-4 sm:px-6">
         <div className="max-w-3xl mx-auto text-body-text leading-relaxed">
-          {post.content.split("\n").map((line, idx) => {
-            if (line.startsWith("## ")) {
-              return (
-                <h2
-                  key={idx}
-                  className="font-serif text-2xl font-bold text-forest mt-10 mb-4"
-                >
-                  {line.replace("## ", "")}
-                </h2>
-              );
-            }
-            if (line.startsWith("### ")) {
-              return (
-                <h3
-                  key={idx}
-                  className="font-serif text-xl font-bold text-forest mt-8 mb-3"
-                >
-                  {line.replace("### ", "")}
-                </h3>
-              );
-            }
-            if (line.startsWith("- ")) {
-              return (
-                <li key={idx} className="ml-6 mb-2">
-                  {line.replace("- ", "")}
-                </li>
-              );
-            }
-            if (line.trim() === "") return <br key={idx} />;
-            return (
-              <p key={idx} className="mb-4">
-                {line}
-              </p>
-            );
-          })}
+          {renderBlogContent(post.content)}
         </div>
       </article>
 
