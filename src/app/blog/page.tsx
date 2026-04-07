@@ -35,6 +35,41 @@ export default function BlogPage() {
         </div>
       </section>
 
+      <section className="py-12 px-4 sm:px-6">
+        <div className="max-w-3xl mx-auto">
+          <div className="space-y-6 text-body-text leading-relaxed">
+            <p>
+              Caring for pets and horses in South Florida comes with its own
+              set of challenges. The heat, the humidity, hurricane season,
+              the local wildlife, and the unique rhythms of life in Broward
+              County all shape how responsible pet owners need to think about
+              their animals. Sheryl writes from over 20 years of firsthand
+              experience working with dogs, cats, and horses across
+              Plantation, Davie, Cooper City, Sunrise, Southwest Ranches,
+              Weston, Pembroke Pines, and Hollywood.
+            </p>
+            <p>
+              These articles cover topics that come up in real conversations
+              with clients: how to keep your dog safe during the hottest
+              months, what consistent daily turnout actually does for a
+              horse&apos;s health, why enrichment matters just as much as
+              exercise on a walk, and how to prepare your animals for
+              hurricane season before the first storm watch appears on the
+              radar. You&apos;ll also find practical advice on hiring a dog
+              walker, choosing a pet sitter, and understanding your pet&apos;s
+              behavior at a deeper level.
+            </p>
+            <p>
+              Everything here is grounded in what Sheryl sees and does every
+              day on the job. No generic advice pulled from a textbook. If
+              something on this blog sparks a question about your own pet,
+              don&apos;t hesitate to reach out. Sheryl is always happy to
+              talk through your specific situation.
+            </p>
+          </div>
+        </div>
+      </section>
+
       <section className="py-16 px-4 sm:px-6">
         <div className="max-w-5xl mx-auto">
           {posts.length === 0 ? (

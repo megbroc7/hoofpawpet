@@ -69,6 +69,14 @@ export default function Footer() {
             <h3 className="font-semibold mb-3">Connect</h3>
             <div className="space-y-2 text-sm">
               <a
+                href="https://www.facebook.com/p/Hoof-and-Paw-Pet-Service-61574051387096/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block text-white/70 hover:text-honey transition-colors"
+              >
+                Facebook
+              </a>
+              <a
                 href="https://www.yelp.com/biz/hoof-and-paw-pet-services-plantation"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -85,6 +93,12 @@ export default function Footer() {
                 Nextdoor
               </a>
             </div>
+              <a
+                href="mailto:Hoofandpawpetservice@gmail.com"
+                className="block text-white/70 hover:text-honey transition-colors"
+              >
+                Email
+              </a>
             <p className="text-white/50 text-xs mt-4">Insured &amp; Bonded</p>
           </div>
         </div>

@@ -3,7 +3,7 @@ import Image from "next/image";
 import type { Metadata } from "next";
 import PhoneCTA from "@/components/PhoneCTA";
 import TrustBar from "@/components/TrustBar";
-import TestimonialCard from "@/components/TestimonialCard";
+import TestimonialCarousel from "@/components/TestimonialCarousel";
 import MeetSherylTeaser from "@/components/MeetSherylTeaser";
 import StructuredData from "@/components/StructuredData";
 import BlogCard from "@/components/BlogCard";
@@ -109,13 +109,7 @@ export default function Home() {
           <h2 className="font-serif text-3xl font-bold text-forest text-center mb-10">
             What Pet Owners Say
           </h2>
-          <div className="flex gap-6 overflow-x-auto pb-4 snap-x snap-mandatory sm:grid sm:grid-cols-3 sm:overflow-visible">
-            {testimonials.map((t) => (
-              <div key={t.id} className="snap-start">
-                <TestimonialCard {...t} />
-              </div>
-            ))}
-          </div>
+          <TestimonialCarousel testimonials={testimonials} />
         </div>
       </section>
 

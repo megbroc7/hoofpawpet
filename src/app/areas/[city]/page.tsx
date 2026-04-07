@@ -252,7 +252,7 @@ export default async function CityPage(props: {
           <p className="text-body-text leading-relaxed mb-6">
             {area.neighborhoodGuide}
           </p>
-          <div className="flex flex-wrap gap-2">
+          <div className="flex flex-wrap gap-2 mb-8">
             {area.localLandmarks.map((landmark) => (
               <span
                 key={landmark}
@@ -261,6 +261,20 @@ export default async function CityPage(props: {
                 {landmark}
               </span>
             ))}
+          </div>
+
+          {/* Map */}
+          <div className="rounded-xl overflow-hidden border border-beige/30">
+            <iframe
+              title={`Map of ${area.name}, ${area.state}`}
+              src={`https://maps.google.com/maps?q=${encodeURIComponent(area.name + ', ' + area.state)}&t=&z=13&ie=UTF8&iwloc=&output=embed`}
+              width="100%"
+              height="300"
+              style={{ border: 0 }}
+              allowFullScreen
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+            />
           </div>
         </div>
       </section>
