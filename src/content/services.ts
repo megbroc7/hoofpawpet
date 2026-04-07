@@ -235,7 +235,7 @@ export const services: Service[] = [
     name: "Horse Care & Turnout",
     tagline: "Comprehensive equine care",
     description:
-      "Sheryl provides daily turnout, feeding, stall cleaning, medication administration, and barn sitting for horse owners in Southwest Ranches and the surrounding area.",
+      "Sheryl provides daily turnout, feeding, stall cleaning, medication administration, and barn sitting for horse owners in Southwest Ranches and the surrounding area. She also offers horse boarding at her own barn in Davie, FL.",
     includes: [
       "Daily turnout management",
       "Feeding & nutrition supervision",
@@ -243,11 +243,12 @@ export const services: Service[] = [
       "Fly care & pest management",
       "Medication administration",
       "Overnight barn sitting available",
+      "Horse boarding at Sheryl's barn in Davie",
     ],
     image: "/images/horse-care.jpg",
     imageAlt: "Two horses during daily turnout with fly mask in a green paddock",
     longDescription:
-      "Horse care isn't something you learn from a weekend course. It takes years of daily, hands-on experience to develop the instincts and knowledge that keep horses healthy, safe, and comfortable. Sheryl has over 20 years of that experience. She owns and manages her own barn in Davie, where she cares for horses, along with chickens, pigs, dogs, and cats. This isn't a side gig for her. It's her life.\n\nWhen you hire Sheryl for horse care, you're getting someone who understands the full scope of what your horses need on a daily basis. She handles morning turnout and evening bring-in on whatever schedule your horses follow. She feeds according to your nutrition plan, manages fly care throughout South Florida's relentless bug season, cleans stalls thoroughly, and checks your horses visually every single visit. She knows what healthy hooves look like, what a change in coat condition might mean, and when a subtle behavioral shift warrants a call to the vet.\n\nSheryl also provides overnight barn sitting during hurricanes and severe weather, which any horse owner in Broward County knows is not optional during storm season. She'll be at your barn before the storm hits and stay through until conditions are safe, managing feeding, water, stall security, and any emergencies that come up.",
+      "Horse care isn't something you learn from a weekend course. It takes years of daily, hands-on experience to develop the instincts and knowledge that keep horses healthy, safe, and comfortable. Sheryl has over 20 years of that experience. She owns and manages her own barn in Davie, where she cares for horses, along with chickens, pigs, dogs, and cats. This isn't a side gig for her. It's her life.\n\nWhen you hire Sheryl for horse care, you're getting someone who understands the full scope of what your horses need on a daily basis. She handles morning turnout and evening bring-in on whatever schedule your horses follow. She feeds according to your nutrition plan, manages fly care throughout South Florida's relentless bug season, cleans stalls thoroughly, and checks your horses visually every single visit. She knows what healthy hooves look like, what a change in coat condition might mean, and when a subtle behavioral shift warrants a call to the vet.\n\nSheryl also provides overnight barn sitting during hurricanes and severe weather, which any horse owner in Broward County knows is not optional during storm season. She'll be at your barn before the storm hits and stay through until conditions are safe, managing feeding, water, stall security, and any emergencies that come up.\n\nFor horse owners who need a longer-term solution or a change of scenery for their animals, Sheryl offers boarding at her own barn in Davie. Your horse gets the same daily hands-on care she gives her own animals: turnout, feeding, stall cleaning, fly management, and constant observation from someone who's on-site every day. It's a small, personal operation, not a large commercial facility, which means your horse gets individual attention rather than being one of dozens. If you're interested in boarding, call Sheryl to discuss availability and visit the barn in person.",
     detailSection: {
       heading: "What Sets Sheryl Apart from Other Horse Care Providers",
       body: "Most pet sitters in Broward County don't touch horses. The ones who do often lack the depth of experience that horse owners need to feel comfortable leaving their animals in someone else's hands. Sheryl is different because horses are part of her everyday reality, not an add-on service she offers because someone asked.\n\nShe understands the physical demands of turnout management on large properties. She can administer oral medications, topical treatments, and basic injectables following your vet's instructions. She recognizes early signs of colic, lameness, and respiratory issues. And she communicates directly with you and your vet if anything comes up, without delay and without sugarcoating. Horse owners trust Sheryl because she treats their animals with the same seriousness and attention she gives her own.",
@@ -267,6 +268,11 @@ export const services: Service[] = [
         question: "Can Sheryl handle both my horses and my household pets?",
         answer:
           "Absolutely. Many of her clients in Davie and Southwest Ranches have horses and dogs or cats on the same property. Sheryl manages everything in a single visit so you don't need to coordinate between providers.",
+      },
+      {
+        question: "Does Sheryl offer horse boarding?",
+        answer:
+          "Yes. Sheryl boards horses at her own barn in Davie, FL. It's a small, personal facility where your horse receives daily hands-on care from Sheryl herself, including turnout, feeding, stall cleaning, and fly management. Call her to discuss availability and arrange a visit to see the barn.",
       },
     ],
     popularAreas: ["Southwest Ranches", "Davie"],
