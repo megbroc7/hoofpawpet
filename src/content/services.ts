@@ -14,7 +14,7 @@ export const services: Service[] = [
     name: "Dog Walking",
     tagline: "Professional daily dog walks",
     description:
-      "Keep your dog active and happy with professional dog walking. Sheryl offers flexible session lengths — 20, 30, or 45 minutes — to fit your schedule and your dog's energy level.",
+      "Keep your dog active and happy with professional dog walking. Sheryl offers flexible session lengths (20, 30, or 45 minutes) to fit your schedule and your dog's energy level.",
     includes: [
       "Leash walk or yard potty break",
       "Fresh water offered",
@@ -31,7 +31,7 @@ export const services: Service[] = [
     name: "Pet Sitting",
     tagline: "In-home care while you're away",
     description:
-      "Leave your dog in trusted hands. Sheryl provides daily in-home visits with exercise, feeding, and companionship — perfect for working professionals or trips away from home.",
+      "Leave your dog in trusted hands. Sheryl provides daily in-home visits with exercise, feeding, and companionship, perfect for working professionals or trips away from home.",
     includes: [
       "Multiple daily visits as needed",
       "Exercise and playtime",
@@ -116,7 +116,7 @@ export const services: Service[] = [
     name: "Home Care Add-ons",
     tagline: "Light home care during visits",
     description:
-      "Sheryl can help with light home care tasks while caring for your pets — so you come home to everything in order.",
+      "Sheryl can help with light home care tasks while caring for your pets, so you come home to everything in order.",
     includes: [
       "Mail pickup",
       "Plant watering",

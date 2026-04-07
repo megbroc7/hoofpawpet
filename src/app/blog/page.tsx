@@ -39,7 +39,7 @@ export default function BlogPage() {
         <div className="max-w-5xl mx-auto">
           {posts.length === 0 ? (
             <p className="text-center text-body-text">
-              No posts yet — check back soon!
+              No posts yet. Check back soon!
             </p>
           ) : (
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">

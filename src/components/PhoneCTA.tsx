@@ -28,7 +28,7 @@ export default function PhoneCTA({
     >
       <span aria-hidden="true">📞</span>
       <span>Call/Text Sheryl</span>
-      <span className="hidden sm:inline">— {PHONE_DISPLAY}</span>
+      <span className="hidden sm:inline">- {PHONE_DISPLAY}</span>
     </Link>
   );
 }

@@ -38,8 +38,8 @@ export default function AboutPage() {
             <Image
               src="/images/sheryl-hero.jpg"
               alt="Sheryl with animals at her barn"
-              width={256}
-              height={256}
+              width={512}
+              height={512}
               className="w-full h-full object-cover"
               priority
             />
@@ -63,7 +63,7 @@ export default function AboutPage() {
             Sheryl is the heart behind Hoof &amp; Paw Pet Services. Animals have
             been part of her life for as long as she can remember, and she
             quickly noticed that so many families struggled to find pet care that
-            felt truly personal. She wanted to change that — to create a service
+            felt truly personal. She wanted to change that, to create a service
             where pets are looked after with the same love and attention she
             gives her own.
           </p>
@@ -77,8 +77,8 @@ export default function AboutPage() {
           </p>
 
           <p>
-            Her barn in Davie is filled with life — horses, chickens, pigs,
-            dogs, and cats — and caring for them keeps her grounded in the daily
+            Her barn in Davie is filled with life: horses, chickens, pigs,
+            dogs, and cats, and caring for them keeps her grounded in the daily
             rhythms of animal life. That same devotion extends to every home and
             barn she visits. Clients often say it feels like she treats their
             pets as if they were her own, and the glowing reviews reflect the
@@ -110,7 +110,7 @@ export default function AboutPage() {
             A Neighbor&apos;s Promise
           </h2>
           <p className="text-body-text text-lg mb-8 leading-relaxed">
-            Hoof &amp; Paw Pet Services isn&apos;t just a business for Sheryl — it&apos;s a
+            Hoof &amp; Paw Pet Services isn&apos;t just a business for Sheryl; it&apos;s a
             neighbor&apos;s promise. She&apos;s local, she&apos;s trusted, and she&apos;s ready to
             be there for you and your animals whenever you need her.
           </p>

@@ -1,6 +1,6 @@
 const trustItems = [
   { label: "Insured & Bonded" },
-  { label: "3 Years Experience" },
+  { label: "20+ Years Experience" },
   { label: "Photo Updates Every Visit" },
 ];
 

@@ -9,8 +9,8 @@ export default function MeetSherylTeaser() {
           <Image
             src="/images/sheryl-portrait.jpg"
             alt="Sheryl, owner of Hoof & Paw Pet Services"
-            width={128}
-            height={128}
+            width={256}
+            height={256}
             className="w-full h-full object-cover object-top scale-[2] translate-y-[45%]"
           />
         </div>

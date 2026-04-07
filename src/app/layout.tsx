@@ -26,7 +26,11 @@ export const metadata: Metadata = {
     process.env.NEXT_PUBLIC_BASE_URL || "https://www.hoofpawpet.com"
   ),
   icons: {
-    icon: "/favicon.svg",
+    icon: [
+      { url: "/favicon.ico", sizes: "48x48" },
+      { url: "/favicon.svg", type: "image/svg+xml" },
+    ],
+    apple: "/apple-touch-icon.png",
   },
   openGraph: {
     type: "website",

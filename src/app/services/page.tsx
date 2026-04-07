@@ -32,7 +32,7 @@ export default function ServicesPage() {
           </h1>
           <p className="text-body-text text-lg leading-relaxed">
             Every service is personally handled by Sheryl. No strangers, no
-            subcontractors — just trusted, attentive care for your pets.
+            subcontractors, just trusted, attentive care for your pets.
           </p>
         </div>
       </section>
@@ -53,7 +53,7 @@ export default function ServicesPage() {
             Not sure which service you need?
           </h2>
           <p className="text-body-text mb-8">
-            Call or text Sheryl — she&apos;s happy to chat about your pet&apos;s needs and
+            Call or text Sheryl. She&apos;s happy to chat about your pet&apos;s needs and
             recommend the right plan.
           </p>
           <PhoneCTA />

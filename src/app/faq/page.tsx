@@ -54,7 +54,7 @@ const petFaqs = [
   {
     question: "Does Sheryl care for multiple pets?",
     answer:
-      "Absolutely! Sheryl is experienced with multi-pet households and provides care for all your pets during visits. Different pet types may affect pricing — discuss your situation when booking.",
+      "Absolutely! Sheryl is experienced with multi-pet households and provides care for all your pets during visits. Different pet types may affect pricing, so discuss your situation when booking.",
   },
   {
     question: "What should I prepare before the first visit?",
@@ -77,7 +77,7 @@ const horseFaqs = [
   {
     question: "Can Sheryl administer medications to horses?",
     answer:
-      "Yes — she's experienced with oral, injectable, and topical medications. Provide instructions from your vet and ensure all supplies are available. She coordinates directly with your veterinarian.",
+      "Yes, she's experienced with oral, injectable, and topical medications. Provide instructions from your vet and ensure all supplies are available. She coordinates directly with your veterinarian.",
   },
   {
     question: "Is overnight barn sitting available?",

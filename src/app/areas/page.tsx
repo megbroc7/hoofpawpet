@@ -52,7 +52,7 @@ export default function AreasPage() {
             Outside these areas?
           </h2>
           <p className="text-body-text mb-8">
-            If you&apos;re nearby in Broward County, reach out — Sheryl may still be
+            If you&apos;re nearby in Broward County, reach out. Sheryl may still be
             able to help.
           </p>
           <PhoneCTA />

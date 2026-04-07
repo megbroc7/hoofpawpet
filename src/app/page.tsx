@@ -39,7 +39,7 @@ export default function Home() {
           </h1>
           <p className="text-body-text text-lg sm:text-xl mb-8 leading-relaxed">
             Dog walking, pet sitting &amp; horse care in Broward County. Personally
-            handled by Sheryl — insured, experienced, and truly local.
+            handled by Sheryl: insured, experienced, and truly local.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <PhoneCTA variant="primary" />
