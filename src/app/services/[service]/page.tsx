@@ -152,21 +152,42 @@ export default async function ServicePage(props: {
         </section>
       )}
 
-      {/* Pet Sitting Photo */}
+      {/* Pet Sitting Photos & Video */}
       {service.id === "dog-sitting" && (
         <section className="py-12 px-4 sm:px-6">
-          <div className="max-w-3xl mx-auto">
+          <div className="max-w-4xl mx-auto">
             <h2 className="font-serif text-2xl font-bold text-forest mb-6 text-center">
               Comfortable at Home
             </h2>
-            <div className="rounded-xl overflow-hidden border border-beige/30 max-w-lg mx-auto">
-              <Image
-                src="/images/two-dogs-home.jpg"
-                alt="Two dogs relaxing together at home during a pet sitting visit"
-                width={600}
-                height={500}
-                className="w-full h-80 object-cover"
-              />
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
+              <div className="rounded-xl overflow-hidden border border-beige/30">
+                <video
+                  src="/images/pet-sitting-visit.mp4"
+                  autoPlay
+                  loop
+                  muted
+                  playsInline
+                  className="w-full h-72 object-cover"
+                />
+              </div>
+              <div className="rounded-xl overflow-hidden border border-beige/30">
+                <Image
+                  src="/images/two-dogs-home.jpg"
+                  alt="Two dogs relaxing together at home during a pet sitting visit"
+                  width={500}
+                  height={600}
+                  className="w-full h-72 object-cover"
+                />
+              </div>
+              <div className="rounded-xl overflow-hidden border border-beige/30">
+                <Image
+                  src="/images/dog-cozy-couch.jpg"
+                  alt="Small dog curled up cozy on the couch during a pet sitting visit"
+                  width={500}
+                  height={600}
+                  className="w-full h-72 object-cover"
+                />
+              </div>
             </div>
           </div>
         </section>
