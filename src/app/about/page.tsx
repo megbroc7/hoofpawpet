@@ -100,6 +100,20 @@ export default function AboutPage() {
             Life at the Barn
           </h2>
           <PhotoGrid photos={barnPhotos} />
+          <div className="mt-6 flex flex-col items-center">
+            <div className="w-48 h-48 rounded-full overflow-hidden border-4 border-sage/30">
+              <Image
+                src="/images/goat-portrait.jpg"
+                alt="Black and white goat at Sheryl's barn in Davie"
+                width={300}
+                height={300}
+                className="w-full h-full object-cover"
+              />
+            </div>
+            <p className="text-body-text text-sm mt-3 italic">
+              The unofficial barn greeter.
+            </p>
+          </div>
         </div>
       </section>
 

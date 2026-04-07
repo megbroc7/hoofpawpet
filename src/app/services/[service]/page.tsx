@@ -112,6 +112,98 @@ export default async function ServicePage(props: {
         </div>
       </section>
 
+      {/* Dog Walking Photos */}
+      {service.id === "dog-walking" && (
+        <section className="py-12 px-4 sm:px-6">
+          <div className="max-w-4xl mx-auto">
+            <h2 className="font-serif text-2xl font-bold text-forest mb-6 text-center">
+              Happy Walkers
+            </h2>
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 max-w-2xl mx-auto">
+              <div className="rounded-xl overflow-hidden border border-beige/30">
+                <Image
+                  src="/images/german-shepherd-walk.jpg"
+                  alt="Happy German Shepherd smiling on a walk in Broward County"
+                  width={500}
+                  height={600}
+                  className="w-full h-72 object-cover object-top"
+                />
+              </div>
+              <div className="rounded-xl overflow-hidden border border-beige/30">
+                <Image
+                  src="/images/yorkie-smiling.jpg"
+                  alt="Smiling Yorkie being held outdoors after a visit"
+                  width={500}
+                  height={600}
+                  className="w-full h-72 object-cover object-top"
+                />
+              </div>
+            </div>
+          </div>
+        </section>
+      )}
+
+      {/* Pet Sitting Photo */}
+      {service.id === "dog-sitting" && (
+        <section className="py-12 px-4 sm:px-6">
+          <div className="max-w-3xl mx-auto">
+            <h2 className="font-serif text-2xl font-bold text-forest mb-6 text-center">
+              Comfortable at Home
+            </h2>
+            <div className="rounded-xl overflow-hidden border border-beige/30 max-w-lg mx-auto">
+              <Image
+                src="/images/two-dogs-home.jpg"
+                alt="Two dogs relaxing together at home during a pet sitting visit"
+                width={600}
+                height={500}
+                className="w-full h-80 object-cover"
+              />
+            </div>
+          </div>
+        </section>
+      )}
+
+      {/* Horse Care Photo Gallery - only on horse-care page */}
+      {service.id === "horse-care" && (
+        <section className="py-12 px-4 sm:px-6">
+          <div className="max-w-4xl mx-auto">
+            <h2 className="font-serif text-2xl font-bold text-forest mb-6 text-center">
+              Life at the Barn
+            </h2>
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
+              <div className="rounded-xl overflow-hidden border border-beige/30">
+                <video
+                  src="/images/horse-hay-stall.mp4"
+                  autoPlay
+                  loop
+                  muted
+                  playsInline
+                  className="w-full h-64 object-cover"
+                />
+              </div>
+              <div className="rounded-xl overflow-hidden border border-beige/30">
+                <Image
+                  src="/images/horse-bath-sunlight.jpg"
+                  alt="Grey horse getting bathed in the sunlight"
+                  width={400}
+                  height={500}
+                  className="w-full h-64 object-cover"
+                />
+              </div>
+              <div className="rounded-xl overflow-hidden border border-beige/30">
+                <Image
+                  src="/images/pony-stall-door.jpg"
+                  alt="White pony peeking over a stall door"
+                  width={400}
+                  height={500}
+                  className="w-full h-64 object-cover"
+                />
+              </div>
+            </div>
+          </div>
+        </section>
+      )}
+
       {/* Detail Section */}
       <section className="py-16 px-4 sm:px-6">
         <div className="max-w-3xl mx-auto">
