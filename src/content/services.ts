@@ -100,9 +100,9 @@ export const services: Service[] = [
           "Sheryl will contact you immediately and take your pet to your preferred vet or the nearest emergency clinic. She keeps your vet's information and emergency contacts on file for every client. You'll be updated throughout the process.",
       },
       {
-        question: "Can Sheryl stay overnight instead of doing drop-in visits?",
+        question: "Can Sheryl do more than one visit per day?",
         answer:
-          "Yes. If your pet does better with someone in the house overnight, Sheryl offers overnight pet sitting as a separate service. Many clients with anxious dogs or elderly pets prefer this option for the extra peace of mind.",
+          "Yes. For longer trips, Sheryl offers an extended care package with evening and morning check-ins. She handles dinner and a walk in the evening, then returns first thing in the morning for breakfast and another walk. Most pets do great with this routine.",
       },
     ],
     popularAreas: ["Plantation", "Davie", "Sunrise", "Weston"],
@@ -191,41 +191,41 @@ export const services: Service[] = [
   },
   {
     id: "overnight-sitting",
-    name: "Overnight Pet Sitting",
-    tagline: "Extended care for extended absences",
+    name: "Extended Pet Care",
+    tagline: "Evening and morning check-ins while you're away",
     description:
-      "Vacation with confidence knowing your pets are in great hands. Sheryl provides overnight care in the comfort of your pet's own home.",
+      "Going on vacation or traveling for work? Sheryl provides extended check-in visits, morning and evening, to keep your pets fed, exercised, and comfortable in their own home while you're gone.",
     includes: [
-      "Extended overnight stays",
-      "Multiple feeding schedules",
-      "Outdoor time and exercise",
+      "Evening visit with dinner, walk, and settling in",
+      "Morning visit with breakfast, walk, and medications",
+      "Multiple feeding schedules maintained",
+      "Outdoor time and exercise at each visit",
       "Medication administration",
-      "Emergency care coordination",
-      "Daily photo updates",
+      "Photo updates after every visit",
     ],
     image: "/images/overnight-sitting.jpg",
-    imageAlt: "Two dogs relaxing at home during an overnight pet sitting visit",
+    imageAlt: "Two dogs relaxing at home during a pet sitting visit",
     longDescription:
-      "Some pets just don't do well when the house is empty at night. Dogs with separation anxiety pace, whine, and destroy things when they're alone in the dark. Older dogs who need a bathroom break at 2 AM can't wait until a morning drop-in visit. And some pets are simply more relaxed knowing that someone is there, sleeping in the next room, keeping things normal.\n\nSheryl's overnight pet sitting means she stays at your home from evening through morning. She handles the dinner routine, the evening walk, the bedtime settling, the middle-of-the-night bathroom trip if needed, and the whole morning routine before she heads to her next client. Your pet goes to sleep and wakes up with a familiar person in the house, and you don't spend your vacation worrying about whether your dog is stressed or your cat is lonely.\n\nThis service is especially valuable for multi-pet households. If you have a dog who needs evening walks, a cat who gets midnight zoomies, and a senior pet who needs a 5 AM bathroom break, overnight sitting covers all of it without you having to schedule three separate visits.",
+      "When you travel, your pet's daily routine doesn't have to fall apart. Sheryl's extended care visits bookend your pet's day with an evening check-in and a morning check-in, making sure they're fed, walked, medicated, and settled at the times that matter most. Your pet stays in their own home, their own bed, surrounded by their own smells and routines. That familiarity keeps them calmer and more comfortable than any boarding facility ever could.\n\nThe evening visit covers dinner, a walk or bathroom break, fresh water, and getting your pet settled for the night. In the morning, Sheryl returns for breakfast, another walk, any medications, and a quick check to make sure everything looks good. Between those visits, most dogs and cats do just fine on their own in a comfortable, familiar home. It's the same rhythm they're used to when you're around, just with Sheryl handling it instead of you.\n\nThis setup works especially well for multi-pet households. If you have a dog who needs walks, a cat who needs medication, and a senior pet who eats on a special schedule, Sheryl handles all of it across both visits. You get photo updates after each check-in so you always know how your animals are doing.",
     detailSection: {
-      heading: "What Overnight Sitting Actually Looks Like",
-      body: "Sheryl arrives in the evening, usually between 6 and 8 PM depending on your pet's dinner schedule. She handles the evening feeding, takes the dog out for a walk, and gets everyone settled for the night. She stays through the night and is available if your pet needs anything: a bathroom break, reassurance during a thunderstorm, or just company if they're restless.\n\nIn the morning, she handles breakfast, the morning walk, and any medications before heading out. If you have a longer trip, she returns each evening and repeats the process. Throughout your trip, she sends you photo updates and texts so you know exactly how things are going at home. She also handles light home care: bringing in packages, adjusting lights and blinds, watering plants, and making sure the house looks lived-in.",
+      heading: "What a Typical Day Looks Like for Your Pet",
+      body: "Sheryl's evening visit usually falls between 5 and 8 PM depending on your pet's dinner schedule. She handles feeding, takes the dog out for a solid walk, refreshes water bowls, scoops the litter box if you have cats, and makes sure everyone is comfortable before she leaves. She'll send you a photo and a quick update so you can see your pets happy and settled.\n\nThe morning visit is typically between 7 and 9 AM. Sheryl handles breakfast, the morning walk, any medications, and a quick once-over to check that your pet looks healthy and normal. She also takes care of light home tasks during visits: bringing in the mail and packages, watering plants, rotating lights, and putting out or bringing in trash bins. By the time you get home, your pets are well cared for and your house is in order.",
     },
     faqs: [
       {
-        question: "Where does Sheryl sleep when she stays overnight?",
+        question: "What times does Sheryl visit in the morning and evening?",
         answer:
-          "Sheryl sleeps on your couch or in a guest room, whatever is most comfortable and closest to where your pets usually sleep. She doesn't need anything fancy. A couch, a blanket, and access to a bathroom is all she asks for.",
+          "Evening visits are typically between 5 and 8 PM, and morning visits between 7 and 9 AM. Sheryl will work with you to find times that match your pet's existing routine as closely as possible.",
       },
       {
-        question: "Is overnight sitting available every night of my trip?",
+        question: "Will my dog be okay alone at night?",
         answer:
-          "Yes. Sheryl can stay every night for the duration of your trip, whether that's two nights or two weeks. For longer trips, she recommends booking well in advance since overnight availability fills up quickly, especially during holidays and school breaks.",
+          "Most dogs do very well at home overnight, especially in their own familiar environment. Sheryl's evening visit makes sure they're walked, fed, and settled before bedtime, and she's back first thing in the morning. If your dog has severe separation anxiety, she can discuss more frequent visit options with you.",
       },
       {
-        question: "What if my pet has a medical emergency overnight?",
+        question: "What if my pet has a medical emergency between visits?",
         answer:
-          "Sheryl keeps your vet's emergency contact information and the nearest 24-hour animal hospital on file. She'll handle the immediate situation, contact you as soon as possible, and transport your pet to the vet if needed.",
+          "Sheryl keeps your vet's emergency contact information and the nearest 24-hour animal hospital on file. If you notice something concerning via a pet camera or if Sheryl observes anything off during a visit, she'll act quickly and keep you informed throughout.",
       },
     ],
     popularAreas: ["Plantation", "Hollywood", "Weston", "Davie"],
@@ -294,7 +294,7 @@ export const services: Service[] = [
       {
         question: "Is there an extra charge for home care tasks?",
         answer:
-          "No. Light home care is included with any pet sitting or overnight sitting booking. Sheryl handles mail, plants, trash, and basic home checks as a standard part of her visits.",
+          "No. Light home care is included with any pet sitting or extended care booking. Sheryl handles mail, plants, trash, and basic home checks as a standard part of her visits.",
       },
       {
         question: "Can Sheryl accept packages or let in a repair person?",
