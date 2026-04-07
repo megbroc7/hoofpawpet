@@ -552,6 +552,8 @@ The short answer is that most small Florida lizards are not poisonous to dogs. T
 
 This guide covers every reptile and amphibian your dog is likely to encounter in a South Florida yard, ranked from least to most dangerous.
 
+![Dog carrying an iguana it caught at a South Florida barn](/images/dog-caught-iguana.jpg)
+
 ## Are Anole Lizards Toxic to Dogs?
 
 Brown anoles (Anolis sagrei) are the small, fast lizards you see on every patio, fence, and sidewalk in Broward County. Originally from Cuba, they are now the most common lizard in Florida. Green anoles (Anolis carolinensis) are the native Florida species, though they've become less common due to competition from browns.

@@ -5,6 +5,7 @@ import BlogCard from "@/components/BlogCard";
 import StructuredData from "@/components/StructuredData";
 import PhoneCTA from "@/components/PhoneCTA";
 import { getBlogPost, getAllBlogPosts } from "@/content/blog";
+import Image from "next/image";
 import { articleSchema, breadcrumbSchema } from "@/lib/structured-data";
 import React from "react";
 
@@ -73,6 +74,24 @@ function renderBlogContent(content: string): React.ReactNode[] {
           </div>
         );
       }
+      continue;
+    }
+
+    // Image: ![alt](src)
+    const imgMatch = line.match(/^!\[([^\]]*)\]\(([^)]+)\)$/);
+    if (imgMatch) {
+      elements.push(
+        <div key={i} className="my-8 rounded-xl overflow-hidden border border-beige/30">
+          <Image
+            src={imgMatch[2]}
+            alt={imgMatch[1]}
+            width={800}
+            height={600}
+            className="w-full h-auto object-cover"
+          />
+        </div>
+      );
+      i++;
       continue;
     }
 
