@@ -1,6 +1,7 @@
 import type { MetadataRoute } from "next";
 import { getAllAreas } from "@/content/areas";
 import { getAllBlogPosts } from "@/content/blog";
+import { services } from "@/content/services";
 
 const BASE_URL =
   process.env.NEXT_PUBLIC_BASE_URL || "https://www.hoofpawpet.com";
@@ -8,6 +9,13 @@ const BASE_URL =
 export default function sitemap(): MetadataRoute.Sitemap {
   const areas = getAllAreas().map((area) => ({
     url: `${BASE_URL}/areas/${area.slug}`,
+    lastModified: new Date(),
+    changeFrequency: "monthly" as const,
+    priority: 0.8,
+  }));
+
+  const servicePages = services.map((service) => ({
+    url: `${BASE_URL}/services/${service.id}`,
     lastModified: new Date(),
     changeFrequency: "monthly" as const,
     priority: 0.8,
@@ -33,6 +41,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "monthly",
       priority: 0.9,
     },
+    ...servicePages,
     {
       url: `${BASE_URL}/about`,
       lastModified: new Date(),
