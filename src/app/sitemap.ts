@@ -1,12 +1,12 @@
 import type { MetadataRoute } from "next";
 import { getAllAreas } from "@/content/areas";
-import { getAllBlogPosts } from "@/content/blog";
+import { getAllBlogPosts } from "@/lib/blog-api";
 import { services } from "@/content/services";
 
 const BASE_URL =
   process.env.NEXT_PUBLIC_BASE_URL || "https://www.hoofpawpet.com";
 
-export default function sitemap(): MetadataRoute.Sitemap {
+export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const areas = getAllAreas().map((area) => ({
     url: `${BASE_URL}/areas/${area.slug}`,
     lastModified: new Date(),
@@ -21,7 +21,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.8,
   }));
 
-  const posts = getAllBlogPosts().map((post) => ({
+  const posts = (await getAllBlogPosts()).map((post) => ({
     url: `${BASE_URL}/blog/${post.slug}`,
     lastModified: new Date(post.date),
     changeFrequency: "yearly" as const,

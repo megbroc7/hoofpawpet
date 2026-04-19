@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import BlogCard from "@/components/BlogCard";
-import { getAllBlogPosts } from "@/content/blog";
+import { getAllBlogPosts } from "@/lib/blog-api";
 import StructuredData from "@/components/StructuredData";
 import { breadcrumbSchema } from "@/lib/structured-data";
 
@@ -11,8 +11,8 @@ export const metadata: Metadata = {
     "Pet care tips, horse care advice, and local insights from Sheryl at Hoof & Paw Pet Services in Broward County, FL.",
 };
 
-export default function BlogPage() {
-  const posts = getAllBlogPosts();
+export default async function BlogPage() {
+  const posts = await getAllBlogPosts();
 
   return (
     <>
