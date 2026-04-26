@@ -10,7 +10,7 @@ import BlogCard from "@/components/BlogCard";
 import { services } from "@/content/services";
 import { getAllAreas } from "@/content/areas";
 import { getTestimonials } from "@/content/testimonials";
-import { getAllBlogPosts } from "@/content/blog";
+import { getAllBlogPosts } from "@/lib/blog-api";
 import { localBusinessSchema } from "@/lib/structured-data";
 
 export const metadata: Metadata = {
@@ -19,13 +19,13 @@ export const metadata: Metadata = {
     "Personal pet sitting and horse care by Sheryl in Broward County, FL. Dog walking, cat sitting, overnight care, and horse turnout in Plantation, Davie, Cooper City, Sunrise, and Southwest Ranches. Call (954) 807-1716.",
 };
 
-export default function Home() {
+export default async function Home() {
   const featuredServices = services.filter((s) =>
     ["dog-walking", "dog-sitting", "cat-sitting", "horse-care"].includes(s.id)
   );
   const areas = getAllAreas();
   const testimonials = getTestimonials();
-  const latestPosts = getAllBlogPosts().slice(0, 2);
+  const latestPosts = (await getAllBlogPosts()).slice(0, 2);
 
   return (
     <>
