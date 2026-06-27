@@ -534,7 +534,7 @@ Dogs may not pass the mirror test, but they pass plenty of others. They read hum
 
 The mirror test measures one narrow type of self-awareness. Dogs have a rich inner life; it's just organized around different senses and different priorities than ours.
 
-If you have questions about your dog's behavior or just want a caregiver who pays close attention to how your individual dog sees and experiences the world, Sheryl at Hoof & Paw is happy to chat. Reach her at **(954) 807-1716)**. She serves Plantation, Davie, Cooper City, Sunrise, and the surrounding Broward County area.`,
+If you have questions about your dog's behavior or just want a caregiver who pays close attention to how your individual dog sees and experiences the world, Sheryl at Hoof & Paw is happy to chat. Reach her at **(954) 807-1716**. She serves Plantation, Davie, Cooper City, Sunrise, and the surrounding Broward County area.`,
     readingTime: 5,
   },
   {
@@ -727,7 +727,7 @@ Sheryl runs Hoof & Paw as a solo, owner-operated business serving Plantation, Da
 
 Every new client starts with a meet and greet. Sheryl takes time to understand your dog's temperament, routine, and any specific needs before the first walk. If something comes up during a walk, you hear from her directly, not after the fact.
 
-If you're looking for a dog walker in Broward County who will treat your dog like the individual they are, give Sheryl a call at **(954) 807-1716)**. She'd be glad to meet your dog.`,
+If you're looking for a dog walker in Broward County who will treat your dog like the individual they are, give Sheryl a call at **(954) 807-1716**. She'd be glad to meet your dog.`,
     readingTime: 6,
   },
 ];

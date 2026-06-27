@@ -9,6 +9,7 @@ export default function TestimonialCarousel({
   testimonials: Testimonial[];
 }) {
   const [current, setCurrent] = useState(0);
+  const [paused, setPaused] = useState(false);
   const total = testimonials.length;
 
   const next = useCallback(() => {
@@ -19,16 +20,37 @@ export default function TestimonialCarousel({
     setCurrent((c) => (c - 1 + total) % total);
   }, [total]);
 
-  /* Auto-advance every 6 seconds */
+  /* Auto-advance every 6 seconds, paused while the user is hovering or
+     keyboard-focused on the carousel so it doesn't yank the view away.
+     NOTE: the empty-array early return below is the single source of truth
+     for `total === 0`; this effect must stay below all hooks so the return
+     remains rules-of-hooks-safe. */
   useEffect(() => {
+    if (paused) return;
     const timer = setInterval(next, 6000);
     return () => clearInterval(timer);
-  }, [next]);
+  }, [next, paused]);
+
+  // Guard: nothing sensible to render without testimonials. This must stay
+  // after all hooks above.
+  if (total === 0) {
+    return (
+      <div className="bg-warm-white rounded-xl p-8 border border-beige/50 text-center text-body-text">
+        No testimonials yet.
+      </div>
+    );
+  }
 
   const t = testimonials[current];
 
   return (
-    <div className="relative max-w-2xl mx-auto">
+    <div
+      className="relative max-w-2xl mx-auto"
+      onMouseEnter={() => setPaused(true)}
+      onMouseLeave={() => setPaused(false)}
+      onFocusCapture={() => setPaused(true)}
+      onBlurCapture={() => setPaused(false)}
+    >
       {/* Card */}
       <div className="bg-warm-white rounded-xl p-8 border border-beige/50 text-center min-h-[200px] flex flex-col justify-center">
         <div className="text-sage text-3xl mb-4" aria-hidden="true">

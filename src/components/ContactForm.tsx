@@ -110,7 +110,7 @@ export default function ContactForm() {
           <option value="pet-sitting">Pet Sitting</option>
           <option value="cat-sitting">Cat Sitting</option>
           <option value="puppy-visits">Puppy Visits</option>
-          <option value="overnight-sitting">Overnight Pet Sitting</option>
+          <option value="overnight-sitting">Extended Pet Care</option>
           <option value="horse-care">Horse Care</option>
           <option value="other">Other</option>
         </select>

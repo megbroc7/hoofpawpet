@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useRef, useEffect } from "react";
+import { useState } from "react";
 
 interface FAQItemProps {
   question: string;
@@ -9,14 +9,6 @@ interface FAQItemProps {
 
 export default function FAQItem({ question, answer }: FAQItemProps) {
   const [open, setOpen] = useState(false);
-  const contentRef = useRef<HTMLDivElement>(null);
-  const [height, setHeight] = useState(0);
-
-  useEffect(() => {
-    if (contentRef.current) {
-      setHeight(contentRef.current.scrollHeight);
-    }
-  }, [answer]);
 
   return (
     <div className="border-b border-beige/50">
@@ -37,12 +29,18 @@ export default function FAQItem({ question, answer }: FAQItemProps) {
           </svg>
         </span>
       </button>
+      {/*
+        CSS grid accordion: animates grid-template-rows between 0fr and 1fr.
+        This needs no JS height measurement, so it reflows correctly on resize
+        and avoids measuring the DOM in an effect.
+      */}
       <div
-        className="overflow-hidden transition-[max-height] duration-200 ease-in-out"
-        style={{ maxHeight: open ? `${height}px` : "0px" }}
+        className={`grid transition-[grid-template-rows] duration-200 ease-in-out ${
+          open ? "grid-rows-[1fr]" : "grid-rows-[0fr]"
+        }`}
       >
-        <div ref={contentRef} className="pb-5 text-body-text leading-relaxed">
-          {answer}
+        <div className="overflow-hidden">
+          <div className="pb-5 text-body-text leading-relaxed">{answer}</div>
         </div>
       </div>
     </div>

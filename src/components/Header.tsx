@@ -1,7 +1,8 @@
 "use client";
 
 import Link from "next/link";
-import { useState } from "react";
+import { usePathname } from "next/navigation";
+import { useState, useEffect, useRef } from "react";
 import PhoneCTA from "./PhoneCTA";
 
 const navLinks = [
@@ -16,9 +17,54 @@ const navLinks = [
 
 export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
+  const pathname = usePathname();
+  const headerRef = useRef<HTMLElement>(null);
+  const [prevPathname, setPrevPathname] = useState(pathname);
+
+  // Close the mobile menu whenever the route changes. Adjusting state during
+  // render (rather than in an effect) is React's recommended pattern for
+  // responding to a changed value and avoids a cascading render.
+  if (pathname !== prevPathname) {
+    setPrevPathname(pathname);
+    if (menuOpen) setMenuOpen(false);
+  }
+
+  // Close on Escape.
+  useEffect(() => {
+    if (!menuOpen) return;
+    const onKey = (e: KeyboardEvent) => {
+      if (e.key === "Escape") setMenuOpen(false);
+    };
+    window.addEventListener("keydown", onKey);
+    return () => window.removeEventListener("keydown", onKey);
+  }, [menuOpen]);
+
+  // Close when a click lands outside the header.
+  useEffect(() => {
+    if (!menuOpen) return;
+    const onClick = (e: MouseEvent) => {
+      if (
+        headerRef.current &&
+        !headerRef.current.contains(e.target as Node)
+      ) {
+        setMenuOpen(false);
+      }
+    };
+    // Defer to the next frame so the opening click itself doesn't close it.
+    const id = window.setTimeout(() => {
+      document.addEventListener("click", onClick);
+    }, 0);
+    return () => {
+      window.clearTimeout(id);
+      document.removeEventListener("click", onClick);
+    };
+  }, [menuOpen]);
 
   return (
-    <header className="sticky top-0 z-50 bg-warm-white/95 backdrop-blur-sm border-b border-beige/50">
+    <header
+      ref={headerRef}
+      className="sticky top-0 z-50 bg-warm-white/95 backdrop-blur-sm border-b border-beige/50"
+    >
       <nav className="max-w-6xl mx-auto px-4 sm:px-6 py-3 flex justify-between items-center">
         <Link
           href="/"

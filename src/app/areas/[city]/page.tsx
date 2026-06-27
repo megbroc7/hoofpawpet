@@ -53,6 +53,20 @@ const badgeBg: Record<Area["accentColor"], string> = {
   "honey-light": "bg-honey text-white",
 };
 
+/**
+ * Build the map iframe source. Prefers the official Maps Embed API when an
+ * API key is configured (NEXT_PUBLIC_GOOGLE_MAPS_KEY), and otherwise falls
+ * back to the keyless embed so the page still renders without setup.
+ */
+function getMapSrc(name: string, state: string) {
+  const query = encodeURIComponent(`${name}, ${state}`);
+  const key = process.env.NEXT_PUBLIC_GOOGLE_MAPS_KEY;
+  if (key) {
+    return `https://www.google.com/maps/embed/v1/place?key=${key}&q=${query}&zoom=13`;
+  }
+  return `https://maps.google.com/maps?q=${query}&z=13&output=embed`;
+}
+
 /* ── Hero variants ── */
 function HeroBadge({ area }: { area: Area }) {
   return (
@@ -267,7 +281,7 @@ export default async function CityPage(props: {
           <div className="rounded-xl overflow-hidden border border-beige/30">
             <iframe
               title={`Map of ${area.name}, ${area.state}`}
-              src={`https://maps.google.com/maps?q=${encodeURIComponent(area.name + ', ' + area.state)}&t=&z=13&ie=UTF8&iwloc=&output=embed`}
+              src={getMapSrc(area.name, area.state)}
               width="100%"
               height="300"
               style={{ border: 0 }}

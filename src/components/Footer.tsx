@@ -92,13 +92,13 @@ export default function Footer() {
               >
                 Nextdoor
               </a>
-            </div>
               <a
                 href="mailto:Hoofandpawpetservice@gmail.com"
                 className="block text-white/70 hover:text-honey transition-colors"
               >
                 Email
               </a>
+            </div>
             <p className="text-white/50 text-xs mt-4">Insured &amp; Bonded</p>
           </div>
         </div>
