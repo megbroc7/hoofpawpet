@@ -13,10 +13,13 @@ export default function ContactForm() {
     const form = e.currentTarget;
     const data = new FormData(form);
 
-    const FORMSPREE_ID = process.env.NEXT_PUBLIC_FORMSPREE_ID || "YOUR_FORM_ID";
+    // Full Formspree endpoint. Project-based format: https://formspree.io/p/{project}/f/{form}
+    const FORMSPREE_ENDPOINT =
+      process.env.NEXT_PUBLIC_FORMSPREE_ENDPOINT ||
+      "https://formspree.io/p/3033337414438354643/f/contact";
 
     try {
-      const res = await fetch(`https://formspree.io/f/${FORMSPREE_ID}`, {
+      const res = await fetch(FORMSPREE_ENDPOINT, {
         method: "POST",
         body: data,
         headers: { Accept: "application/json" },
