@@ -8,7 +8,7 @@ import { breadcrumbSchema, localBusinessSchema } from "@/lib/structured-data";
 export const metadata: Metadata = {
   title: "Contact",
   description:
-    "Get in touch with Sheryl at Hoof & Paw Pet Services. Call or text (954) 807-1716 for pet sitting and horse care in Broward County, FL.",
+    "Get in touch with Sheryl at Hoof & Paw Pet Services. Call or text (954) 804-1716 for pet sitting and horse care in Broward County, FL.",
 };
 
 export default function ContactPage() {

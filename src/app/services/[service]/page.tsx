@@ -22,7 +22,7 @@ export async function generateMetadata(props: {
 
   return {
     title: `${service.name} in Broward County`,
-    description: `${service.description} Serving Plantation, Davie, Cooper City, Sunrise, and more. Call (954) 807-1716.`,
+    description: `${service.description} Serving Plantation, Davie, Cooper City, Sunrise, and more. Call (954) 804-1716.`,
   };
 }
 

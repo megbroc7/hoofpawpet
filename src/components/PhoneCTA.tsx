@@ -5,8 +5,8 @@ interface PhoneCTAProps {
   className?: string;
 }
 
-const PHONE_NUMBER = "9548071716";
-const PHONE_DISPLAY = "(954) 807-1716";
+const PHONE_NUMBER = "9548041716";
+const PHONE_DISPLAY = "(954) 804-1716";
 
 export default function PhoneCTA({
   variant = "primary",

@@ -19,7 +19,7 @@ const petFaqs = [
   {
     question: "How do I book a visit?",
     answer:
-      "The easiest way is to call or text Sheryl directly at (954) 807-1716. You can also fill out the contact form on the Contact page. She'll get back to you within 24 hours to finalize scheduling and discuss your pet's specific needs.",
+      "The easiest way is to call or text Sheryl directly at (954) 804-1716. You can also fill out the contact form on the Contact page. She'll get back to you within 24 hours to finalize scheduling and discuss your pet's specific needs.",
   },
   {
     question: "Is there a free meet and greet?",

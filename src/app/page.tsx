@@ -16,7 +16,7 @@ import { localBusinessSchema } from "@/lib/structured-data";
 export const metadata: Metadata = {
   title: "Hoof & Paw Pet Services | Pet Sitting & Horse Care in Broward County",
   description:
-    "Personal pet sitting and horse care by Sheryl in Broward County, FL. Dog walking, cat sitting, overnight care, and horse turnout in Plantation, Davie, Cooper City, Sunrise, and Southwest Ranches. Call (954) 807-1716.",
+    "Personal pet sitting and horse care by Sheryl in Broward County, FL. Dog walking, cat sitting, overnight care, and horse turnout in Plantation, Davie, Cooper City, Sunrise, and Southwest Ranches. Call (954) 804-1716.",
 };
 
 export default function Home() {

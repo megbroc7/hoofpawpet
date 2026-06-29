@@ -9,7 +9,7 @@ export function localBusinessSchema() {
     description:
       "Personal pet sitting and horse care by Sheryl in Broward County, FL.",
     url: BASE_URL,
-    telephone: "+19548071716",
+    telephone: "+19548041716",
     email: "Hoofandpawpetservice@gmail.com",
     image: `${BASE_URL}/images/dog-walking.jpg`,
     logo: `${BASE_URL}/icon-512.png`,

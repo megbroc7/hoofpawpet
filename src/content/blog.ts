@@ -168,7 +168,7 @@ We have a full post dedicated to hurricane prep for pets (including a go-bag che
 
 ## How Sheryl Keeps Pets Safe All Summer
 
-During Broward's hottest months, Sheryl at Hoof & Paw adjusts walk schedules, monitors pets for heat stress, and keeps clients updated with photos so you know your animals are doing well even when you can't be there. If you're heading out of town this summer and want a trusted, local caregiver keeping an eye on your pets, give Sheryl a call at **(954) 807-1716**.`,
+During Broward's hottest months, Sheryl at Hoof & Paw adjusts walk schedules, monitors pets for heat stress, and keeps clients updated with photos so you know your animals are doing well even when you can't be there. If you're heading out of town this summer and want a trusted, local caregiver keeping an eye on your pets, give Sheryl a call at **(954) 804-1716**.`,
     readingTime: 6,
   },
   {
@@ -224,7 +224,7 @@ Big pet-sitting apps and national franchises have their place, but they come wit
 
 With Hoof & Paw, you call or text Sheryl directly. If you have a concern, you hear back from the person who actually cares for your pet. That kind of relationship, built on trust, consistency, and genuine care, is what keeps clients coming back year after year.
 
-If you're in Plantation, Davie, Cooper City, Sunrise, or Southwest Ranches and looking for a dog walker you can actually count on, reach out to Sheryl at **(954) 807-1716**. She'd love to meet your dog.`,
+If you're in Plantation, Davie, Cooper City, Sunrise, or Southwest Ranches and looking for a dog walker you can actually count on, reach out to Sheryl at **(954) 804-1716**. She'd love to meet your dog.`,
     readingTime: 6,
   },
   {
@@ -287,7 +287,7 @@ Before hiring someone to care for your animals, ask:
 - What would you do in an emergency?
 - Can I see references from current clients?
 
-If you're looking for someone who can answer all of those questions confidently and who genuinely loves animals, reach out to Sheryl at **(954) 807-1716**. She'd be happy to do a meet and greet with your whole crew before you commit to anything.`,
+If you're looking for someone who can answer all of those questions confidently and who genuinely loves animals, reach out to Sheryl at **(954) 804-1716**. She'd be happy to do a meet and greet with your whole crew before you commit to anything.`,
     readingTime: 7,
   },
   {
@@ -344,7 +344,7 @@ At Hoof & Paw, Sheryl doesn't just take dogs through their paces. She pays atten
 
 She also incorporates simple enrichment into visits: scatter feeding, hide-and-seek with treats, and allowing dogs to investigate new environments when it's safe to do so. These small additions make a real difference in how dogs feel by the end of the visit.
 
-If your dog in Broward County could use more mental stimulation built into their daily walks and care routine, Sheryl would love to help. Reach out at **(954) 807-1716** to talk about what would work best for your dog.`,
+If your dog in Broward County could use more mental stimulation built into their daily walks and care routine, Sheryl would love to help. Reach out at **(954) 804-1716** to talk about what would work best for your dog.`,
     readingTime: 6,
   },
   {
@@ -402,7 +402,7 @@ No piece of equipment replaces training, but the right equipment can make the pr
 
 Avoid retractable leashes during any leash training, as they teach dogs that tension is normal and that leash length is variable.
 
-If you're in Plantation, Davie, Cooper City, Sunrise, or elsewhere in Broward County and want a walker who will reinforce your training work and treat your dog as an individual, reach out to Sheryl at **(954) 807-1716**.`,
+If you're in Plantation, Davie, Cooper City, Sunrise, or elsewhere in Broward County and want a walker who will reinforce your training work and treat your dog as an individual, reach out to Sheryl at **(954) 804-1716**.`,
     readingTime: 7,
   },
   {
@@ -479,7 +479,7 @@ Wait for conditions to be declared safe before bringing horses back in or assess
 
 Hoof & Paw serves families across Broward County, including those with horses in Southwest Ranches. Sheryl can help with pre-storm checks, feeding and care if you need to evacuate without your animals, and post-storm welfare checks once conditions are safe.
 
-If you want to talk through your hurricane plan for your pets or horses, give Sheryl a call at **(954) 807-1716**. Getting a plan in place now is the best thing you can do for your animals before the season starts.`,
+If you want to talk through your hurricane plan for your pets or horses, give Sheryl a call at **(954) 804-1716**. Getting a plan in place now is the best thing you can do for your animals before the season starts.`,
     readingTime: 7,
   },
   {
@@ -534,7 +534,7 @@ Dogs may not pass the mirror test, but they pass plenty of others. They read hum
 
 The mirror test measures one narrow type of self-awareness. Dogs have a rich inner life; it's just organized around different senses and different priorities than ours.
 
-If you have questions about your dog's behavior or just want a caregiver who pays close attention to how your individual dog sees and experiences the world, Sheryl at Hoof & Paw is happy to chat. Reach her at **(954) 807-1716**. She serves Plantation, Davie, Cooper City, Sunrise, and the surrounding Broward County area.`,
+If you have questions about your dog's behavior or just want a caregiver who pays close attention to how your individual dog sees and experiences the world, Sheryl at Hoof & Paw is happy to chat. Reach her at **(954) 804-1716**. She serves Plantation, Davie, Cooper City, Sunrise, and the surrounding Broward County area.`,
     readingTime: 5,
   },
   {
@@ -661,7 +661,7 @@ Here is a quick reference guide based on what your dog encountered:
 
 Sheryl at Hoof & Paw has been walking and caring for dogs in Broward County for over 20 years. She knows which neighborhoods have active Bufo toad populations, which canal paths have iguana dens, and how to keep dogs safe on every walk. When you hire Hoof & Paw for dog walking or pet sitting in Plantation, Davie, Cooper City, Sunrise, Weston, Pembroke Pines, Hollywood, or Southwest Ranches, you're getting someone who understands the specific risks of caring for animals in South Florida.
 
-If you want a dog walker or pet sitter who stays alert to local wildlife hazards, call or text Sheryl at **(954) 807-1716**.`,
+If you want a dog walker or pet sitter who stays alert to local wildlife hazards, call or text Sheryl at **(954) 804-1716**.`,
     readingTime: 12,
   },
   {
@@ -727,7 +727,7 @@ Sheryl runs Hoof & Paw as a solo, owner-operated business serving Plantation, Da
 
 Every new client starts with a meet and greet. Sheryl takes time to understand your dog's temperament, routine, and any specific needs before the first walk. If something comes up during a walk, you hear from her directly, not after the fact.
 
-If you're looking for a dog walker in Broward County who will treat your dog like the individual they are, give Sheryl a call at **(954) 807-1716**. She'd be glad to meet your dog.`,
+If you're looking for a dog walker in Broward County who will treat your dog like the individual they are, give Sheryl a call at **(954) 804-1716**. She'd be glad to meet your dog.`,
     readingTime: 6,
   },
 ];
