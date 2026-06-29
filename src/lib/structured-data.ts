@@ -92,6 +92,7 @@ export function localBusinessSchema() {
       ],
     },
     sameAs: [
+      "https://www.facebook.com/p/Hoof-and-Paw-Pet-Service-61574051387096/",
       "https://www.yelp.com/biz/hoof-and-paw-pet-services-plantation",
       "https://nextdoor.com/pages/hoof-and-paw-pet-service-plantation-fl/",
       "https://www.mapquest.com/us/florida/hoof-and-paw-pet-services-778722709",
