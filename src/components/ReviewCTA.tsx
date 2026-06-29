@@ -3,7 +3,10 @@ interface ReviewCTAProps {
   className?: string;
 }
 
-const REVIEW_URL = "https://g.page/r/Cd3kudi-HkWWEBM/review";
+// Opens the verified Google Business Profile (Maps) where customers can leave a review.
+// Uses the stable place CID rather than a g.page short code (which proved unreliable
+// while Google was merging a duplicate listing).
+const REVIEW_URL = "https://www.google.com/maps?cid=10828094684110906589";
 
 export default function ReviewCTA({
   variant = "primary",
