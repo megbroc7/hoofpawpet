@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { PHONE_DISPLAY, PHONE_NUMBER } from "./PhoneCTA";
+import { REVIEW_URL } from "./ReviewCTA";
 import { getAllAreas } from "@/content/areas";
 
 export default function Footer() {
@@ -68,6 +69,14 @@ export default function Footer() {
           <div>
             <h3 className="font-semibold mb-3">Connect</h3>
             <div className="space-y-2 text-sm">
+              <a
+                href={REVIEW_URL}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block text-honey hover:text-honey-light font-semibold transition-colors"
+              >
+                ⭐ Leave a Google Review
+              </a>
               <a
                 href="https://www.facebook.com/p/Hoof-and-Paw-Pet-Service-61574051387096/"
                 target="_blank"

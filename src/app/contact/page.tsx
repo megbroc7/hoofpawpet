@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import ContactForm from "@/components/ContactForm";
+import ReviewCTA from "@/components/ReviewCTA";
 import StructuredData from "@/components/StructuredData";
 import { PHONE_DISPLAY, PHONE_NUMBER } from "@/components/PhoneCTA";
 import { breadcrumbSchema, localBusinessSchema } from "@/lib/structured-data";
@@ -110,6 +111,20 @@ export default function ContactPage() {
               fits your routine.
             </p>
           </div>
+        </div>
+      </section>
+
+      {/* Leave a Review */}
+      <section className="bg-forest text-white py-14 px-4 sm:px-6">
+        <div className="max-w-2xl mx-auto text-center">
+          <h2 className="font-serif text-2xl font-bold mb-3">
+            Already one of Sheryl&apos;s clients?
+          </h2>
+          <p className="text-white/80 mb-6">
+            A quick Google review means the world to a small, local business
+            &mdash; and helps other Broward pet owners find trustworthy care.
+          </p>
+          <ReviewCTA variant="secondary" />
         </div>
       </section>
 
