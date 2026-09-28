@@ -36,6 +36,8 @@ export interface Area {
   heroVariant: "badge" | "split" | "centered" | "wide" | "bold";
   /** Short badge/tagline shown in the hero */
   heroBadge?: string;
+  /** Meta description for search results (≤160 chars). Hand-written per city. */
+  metaDescription: string;
 }
 
 export const areas: Area[] = [
@@ -47,6 +49,8 @@ export const areas: Area[] = [
     heroVariant: "badge",
     heroBadge: "Sheryl's Home Base",
     headline: "Pet Sitting in Plantation, FL",
+    metaDescription:
+      "Pet sitting, dog walking and cat care in Plantation, FL from Sheryl, a Plantation local. Photo updates after every visit. Call or text (954) 804-1716.",
     description:
       "Sheryl lives right here in Plantation: this is her home turf. She's not driving in from another city or dispatching a stranger. When you hire Hoof & Paw for pet care in Plantation, you're getting a neighbor who knows your streets, your parks, and probably your mail carrier. That's the kind of personal care you can't get from an app.",
     neighborhoodGuide:
@@ -111,6 +115,8 @@ export const areas: Area[] = [
     heroVariant: "split",
     heroBadge: "Where the Barn Is",
     headline: "Pet Sitting & Horse Care in Davie, FL",
+    metaDescription:
+      "Horse care, barn sitting and pet sitting in Davie, FL. Sheryl keeps her own barn in Davie and can care for horses, dogs and cats in one visit. (954) 804-1716.",
     description:
       "Davie is where Sheryl keeps her barn: horses, chickens, pigs, and a rotating cast of rescued animals. She's not just passing through this community; she's rooted in it. That connection to Davie's equestrian culture means she understands what horse owners need, and she brings that same hands-on dedication to every dog walk and pet sitting visit in the area.",
     neighborhoodGuide:
@@ -175,6 +181,8 @@ export const areas: Area[] = [
     accentColor: "sage-dark",
     heroVariant: "centered",
     headline: "Pet Sitting in Cooper City, FL",
+    metaDescription:
+      "Mid-day dog walks, puppy visits and pet sitting in Cooper City, FL for busy families. The same trusted sitter, Sheryl, every visit. Call (954) 804-1716.",
     description:
       "Cooper City is one of the most family-friendly communities in Broward County, and Sheryl has been caring for its pets for years. Between school drop-offs, sports practices, and work schedules, Cooper City parents are busy, and their pets still need attention, exercise, and love during the day. That's where Sheryl comes in.",
     neighborhoodGuide:
@@ -239,6 +247,8 @@ export const areas: Area[] = [
     accentColor: "honey-light",
     heroVariant: "wide",
     headline: "Pet Sitting in Sunrise, FL",
+    metaDescription:
+      "Dog walking and cat sitting in Sunrise, FL on your schedule: early morning, mid-day or evening visits from Sheryl. Call or text (954) 804-1716.",
     description:
       "Sunrise is a working city: busy professionals, long commutes, and pets waiting at home. Sheryl provides the flexible, reliable care that Sunrise pet owners need to get through the week without worrying about their animals. Whether you're near Sawgrass Mills, off University Drive, or in the communities around Markham Park, she's close by and available on your schedule.",
     neighborhoodGuide:
@@ -304,6 +314,8 @@ export const areas: Area[] = [
     heroVariant: "bold",
     heroBadge: "Equine Care Specialist",
     headline: "Horse Care & Pet Sitting in Southwest Ranches, FL",
+    metaDescription:
+      "Horse care in Southwest Ranches, FL: daily turnout, feeding, stall cleaning and overnight barn sitting from Sheryl, 20+ years with horses. (954) 804-1716.",
     description:
       "Southwest Ranches is horse country, and Sheryl belongs here. With her own barn, over 20 years of hands-on equine experience, and a deep understanding of what large-property animal ownership demands, she's not learning on the job; she's been doing this her entire adult life. From daily turnout to overnight barn sitting during hurricane season, Hoof & Paw provides the kind of dependable, knowledgeable horse care that Southwest Ranches owners expect.",
     neighborhoodGuide:
@@ -382,6 +394,8 @@ export const areas: Area[] = [
     accentColor: "sage-dark",
     heroVariant: "wide",
     headline: "Pet Sitting & Dog Walking in Weston, FL",
+    metaDescription:
+      "Pet sitting and dog walking in Weston, FL, including gated communities. Same caregiver every visit, photo updates, flexible for travelers. (954) 804-1716.",
     description:
       "Weston is one of the most desirable communities in Broward County, and its residents expect a high standard of care for their pets. Sheryl provides exactly that: personal, one-on-one attention from someone who treats your animals like family. No rotating staff, no app-based strangers. Just a trusted, experienced pet sitter who knows your neighborhood and your pets by name.",
     neighborhoodGuide:
@@ -446,6 +460,8 @@ export const areas: Area[] = [
     accentColor: "sage",
     heroVariant: "centered",
     headline: "Pet Sitting & Dog Walking in Pembroke Pines, FL",
+    metaDescription:
+      "Dog walking and pet sitting in Pembroke Pines, FL. Patient with rescue dogs and anxious pets; mid-day walks for commuters. Call Sheryl at (954) 804-1716.",
     description:
       "Pembroke Pines is one of the largest cities in Broward County, but good pet care here still comes down to one thing: finding someone you trust. Sheryl has been caring for animals professionally for over 20 years, and she brings that same personal, attentive approach to every Pembroke Pines home she visits. Your pet gets a dedicated caregiver who remembers their routine, their quirks, and their favorite way to be greeted at the door.",
     neighborhoodGuide:
@@ -511,6 +527,8 @@ export const areas: Area[] = [
     heroVariant: "badge",
     heroBadge: "Where Sheryl Grew Up",
     headline: "Pet Sitting & Dog Walking in Hollywood, FL",
+    metaDescription:
+      "Pet sitting, dog walking and cat sitting in Hollywood, FL from Sheryl, who grew up here. Houses, townhomes and condos. Call or text (954) 804-1716.",
     description:
       "Hollywood holds a special place in Sheryl's story. She moved here as a little girl, attended Hollywood Hills High School, and spent her formative years in this community before eventually settling in nearby Plantation. When she visits Hollywood homes to care for pets, she's not navigating unfamiliar streets. She's coming back to a city she knows in her bones.",
     neighborhoodGuide:
