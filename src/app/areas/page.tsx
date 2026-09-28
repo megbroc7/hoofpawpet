@@ -9,6 +9,7 @@ export const metadata: Metadata = {
   title: "Areas We Serve",
   description:
     "Sheryl serves Plantation, Davie, Weston, Cooper City, Sunrise, Pembroke Pines, Hollywood and Southwest Ranches in Broward County, FL. Find pet sitting near you.",
+  alternates: { canonical: "/areas" },
 };
 
 export default function AreasPage() {

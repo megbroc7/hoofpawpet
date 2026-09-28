@@ -9,6 +9,7 @@ export const metadata: Metadata = {
   title: "About Sheryl",
   description:
     "Meet Sheryl, the heart behind Hoof & Paw Pet Services. A Plantation resident and lifelong animal lover providing personal pet care in Broward County, FL.",
+  alternates: { canonical: "/about" },
 };
 
 export default function AboutPage() {

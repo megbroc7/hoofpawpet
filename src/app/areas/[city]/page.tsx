@@ -25,6 +25,7 @@ export async function generateMetadata(props: {
   return {
     title: area.headline,
     description: `${area.description.slice(0, 155)}...`,
+    alternates: { canonical: `/areas/${area.slug}` },
   };
 }
 

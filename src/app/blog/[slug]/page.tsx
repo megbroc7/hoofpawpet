@@ -28,6 +28,7 @@ export async function generateMetadata(props: {
       description: post.excerpt,
       publishedTime: post.date,
     },
+    alternates: { canonical: `/blog/${post.slug}` },
   };
 }
 

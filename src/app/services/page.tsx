@@ -9,6 +9,7 @@ export const metadata: Metadata = {
   title: "Services",
   description:
     "Pet sitting and horse care services in Broward County by Sheryl. Dog walking, cat sitting, puppy visits, overnight care, horse turnout, and more.",
+  alternates: { canonical: "/services" },
 };
 
 export default function ServicesPage() {

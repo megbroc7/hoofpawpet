@@ -8,6 +8,7 @@ export const metadata: Metadata = {
   title: "FAQ",
   description:
     "Frequently asked questions about Hoof & Paw Pet Services. Learn about booking, service areas, pricing, and pet care with Sheryl in Broward County.",
+  alternates: { canonical: "/faq" },
 };
 
 const petFaqs = [

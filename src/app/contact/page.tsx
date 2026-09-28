@@ -10,6 +10,7 @@ export const metadata: Metadata = {
   title: "Contact",
   description:
     "Get in touch with Sheryl at Hoof & Paw Pet Services. Call or text (954) 804-1716 for pet sitting and horse care in Broward County, FL.",
+  alternates: { canonical: "/contact" },
 };
 
 export default function ContactPage() {

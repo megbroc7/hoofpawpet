@@ -9,6 +9,7 @@ export const metadata: Metadata = {
   title: "Blog",
   description:
     "Pet care tips, horse care advice, and local insights from Sheryl at Hoof & Paw Pet Services in Broward County, FL.",
+  alternates: { canonical: "/blog" },
 };
 
 export default async function BlogPage() {

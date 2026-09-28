@@ -17,6 +17,7 @@ export const metadata: Metadata = {
   title: "Hoof & Paw Pet Services | Pet Sitting & Horse Care in Broward County",
   description:
     "Pet sitting, dog walking and horse care by Sheryl in Broward County, FL: Plantation, Davie, Weston, Pembroke Pines, Hollywood and more. Call (954) 804-1716.",
+  alternates: { canonical: "/" },
 };
 
 export default function Home() {
