@@ -67,7 +67,7 @@ export default function Home() {
             {featuredServices.map((service) => (
               <Link
                 key={service.id}
-                href={`/services#${service.id}`}
+                href={`/services/${service.id}`}
                 className="bg-white rounded-xl border border-beige/50 overflow-hidden hover:shadow-md transition-shadow group"
               >
                 <div className="aspect-[4/3] overflow-hidden bg-surface">

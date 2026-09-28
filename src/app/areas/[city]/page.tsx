@@ -342,7 +342,7 @@ export default async function CityPage(props: {
                 service && (
                   <Link
                     key={service.id}
-                    href={`/services#${service.id}`}
+                    href={`/services/${service.id}`}
                     className="bg-white rounded-xl border border-beige/50 p-4 hover:shadow-md transition-shadow text-center"
                   >
                     <h3 className="font-semibold text-forest">{service.name}</h3>
