@@ -8,7 +8,7 @@ import { breadcrumbSchema, localBusinessSchema } from "@/lib/structured-data";
 export const metadata: Metadata = {
   title: "Areas We Serve",
   description:
-    "Hoof & Paw Pet Services serves Plantation, Davie, Cooper City, Sunrise, and Southwest Ranches in Broward County, FL. Find pet sitting near you.",
+    "Sheryl serves Plantation, Davie, Weston, Cooper City, Sunrise, Pembroke Pines, Hollywood and Southwest Ranches in Broward County, FL. Find pet sitting near you.",
 };
 
 export default function AreasPage() {

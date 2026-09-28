@@ -14,7 +14,7 @@ const petFaqs = [
   {
     question: "What areas does Sheryl serve?",
     answer:
-      "Sheryl serves Plantation, Davie, Cooper City, Sunrise, and Southwest Ranches in Broward County, Florida. She's based in Plantation. If your location is outside these areas but nearby, call or text to discuss availability.",
+      "Sheryl serves Plantation, Davie, Cooper City, Sunrise, Southwest Ranches, Weston, Pembroke Pines, and Hollywood in Broward County, Florida. She's based in Plantation. If your location is outside these areas but nearby, call or text to discuss availability.",
   },
   {
     question: "How do I book a visit?",

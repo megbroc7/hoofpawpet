@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     template: "%s | Hoof & Paw Pet Services",
   },
   description:
-    "Personal pet sitting and horse care by Sheryl in Broward County, FL. Dog walking, cat sitting, overnight care, and horse turnout in Plantation, Davie, Cooper City, Sunrise, and Southwest Ranches.",
+    "Personal pet sitting and horse care by Sheryl across Broward County, FL: dog walking, cat sitting, overnight care and horse turnout. Based in Plantation.",
   metadataBase: new URL(
     process.env.NEXT_PUBLIC_BASE_URL || "https://www.hoofpawpet.com"
   ),
