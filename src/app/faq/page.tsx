@@ -33,9 +33,9 @@ const petFaqs = [
       "Sheryl can administer medications, follow special diets, and care for pets with medical conditions. Provide detailed instructions and any prescriptions. She works closely with you and your veterinarian to ensure proper care.",
   },
   {
-    question: "Is Hoof & Paw insured?",
+    question: "Is Hoof & Paw insured and bonded?",
     answer:
-      "Yes! Hoof & Paw is fully insured and bonded. Sheryl maintains liability insurance covering all services, giving you peace of mind that your pets and home are protected.",
+      "No. Hoof & Paw does not currently carry pet-sitting liability insurance or bonding. Please discuss your requirements with Sheryl before booking.",
   },
   {
     question: "What's included in dog walking?",

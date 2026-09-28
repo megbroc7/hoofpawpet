@@ -1,5 +1,5 @@
 const trustItems = [
-  { label: "Insured & Bonded" },
+  { label: "Care by Sheryl, Every Visit" },
   { label: "20+ Years Experience" },
   { label: "Photo Updates Every Visit" },
 ];

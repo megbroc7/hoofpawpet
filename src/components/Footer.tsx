@@ -108,7 +108,6 @@ export default function Footer() {
                 Email
               </a>
             </div>
-            <p className="text-white/50 text-xs mt-4">Insured &amp; Bonded</p>
           </div>
         </div>
 

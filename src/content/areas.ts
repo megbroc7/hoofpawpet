@@ -266,7 +266,7 @@ export const areas: Area[] = [
       "Flexible scheduling: early morning, mid-day, or evening visits",
       "Serving communities near Markham Park, Sawgrass, and Nob Hill",
       "Great for busy professionals and remote workers",
-      "Insured and experienced with cats, dogs, and multi-pet households",
+      "Experienced with cats, dogs, and multi-pet households",
     ],
     popularServices: ["dog-walking", "cat-sitting", "overnight-sitting"],
     uniqueSections: [
@@ -546,7 +546,7 @@ export const areas: Area[] = [
       "Sheryl grew up in Hollywood and knows the city personally",
       "Experienced with the full range of Hollywood housing: houses, townhomes, and condos",
       "Overnight pet sitting available for vacations and extended trips",
-      "Insured, bonded, and backed by over 20 years of animal care experience",
+      "Over 20 years of animal care experience",
     ],
     popularServices: ["dog-walking", "cat-sitting", "overnight-sitting"],
     uniqueSections: [

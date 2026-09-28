@@ -15,7 +15,7 @@ export const blogPosts: BlogPost[] = [
     slug: "back-to-school-pet-sitting-tips",
     title: "Back-to-School Pet Sitting Tips for Broward County Families",
     date: "2026-03-15",
-    author: "Hoof & Paw Team",
+    author: "Hoof & Paw Pet Services",
     excerpt:
       "Heading back to school? Your pets might experience separation anxiety. Learn how professional pet sitting can help your furry friends adjust to a new routine.",
     content: `As families in Broward County prepare for the back-to-school season, many pet owners are worried about how their beloved companions will handle the change in routine. When children return to school and parents are busy with work, pets can experience separation anxiety and stress.
@@ -53,7 +53,7 @@ This back-to-school season, let Hoof & Paw handle the pet care so you can focus 
     slug: "why-horses-need-consistent-turnout",
     title: "Why Your Horse Needs Consistent Turnout Care",
     date: "2026-03-01",
-    author: "Hoof & Paw Team",
+    author: "Hoof & Paw Pet Services",
     excerpt:
       "Consistent turnout is essential for horse health and behavior. Learn how our turnout care services in Southwest Ranches keep your horse happy and healthy.",
     content: `Horse owners in Southwest Ranches know that proper turnout is crucial for their equine companions. Yet many horse owners struggle to maintain consistent daily turnout, especially when life gets busy. Here's why your horse needs reliable turnout care and how we can help.
@@ -101,7 +101,7 @@ Beyond daily turnout, we offer:
 
 ## The Hoof & Paw Difference
 
-Located right here in Southwest Ranches, we understand the local equine community. We're insured, experienced with all horse types, and dedicated to your horse's welfare. We treat every horse as if it were our own.
+Sheryl serves horse owners in Southwest Ranches with hands-on care tailored to each horse's routine. Call or text to discuss your horse's needs.
 
 Don't let a busy schedule compromise your horse's health. Contact Hoof & Paw today to learn how our turnout care services can keep your horse thriving year-round.`,
     readingTime: 6,
@@ -111,7 +111,7 @@ Don't let a busy schedule compromise your horse's health. Contact Hoof & Paw tod
     slug: "summer-pet-safety-broward",
     title: "Summer Pet Safety Tips for Broward County Pet Owners",
     date: "2025-10-15",
-    author: "Hoof & Paw Team",
+    author: "Hoof & Paw Pet Services",
     excerpt:
       "South Florida summers are no joke for pets. From scorching pavement to hurricane season, here's how to keep your animals safe when the heat is on in Broward County.",
     content: `If you've lived in Broward County for more than one summer, you know that the heat here is serious. Temperatures regularly climb into the 90s, the humidity makes it feel hotter, and afternoon thunderstorms roll in without much warning. For pet owners in Plantation, Davie, Cooper City, Sunrise, and the surrounding areas, summer means adjusting how you care for your animals, sometimes significantly.
@@ -176,7 +176,7 @@ During Broward's hottest months, Sheryl at Hoof & Paw adjusts walk schedules, mo
     slug: "why-hoofpaw-pet-service-best-dog-walking-broward",
     title: "Why Hoof & Paw Is Broward County's Trusted Dog Walking Service",
     date: "2025-11-01",
-    author: "Hoof & Paw Team",
+    author: "Hoof & Paw Pet Services",
     excerpt:
       "Not all dog walkers are the same. Here's what sets Hoof & Paw apart, and why pet owners across Plantation, Davie, and Broward County keep coming back.",
     content: `Hiring someone to walk your dog is a bigger decision than it might seem. You're trusting a person with an animal you love, giving them access to your home and your neighborhood, and relying on them to show up consistently. In Broward County, where there's no shortage of people advertising pet services, it can be hard to know who to trust.
@@ -203,7 +203,7 @@ You shouldn't have to wonder how the walk went. Good walkers send photo updates 
 
 Sheryl runs Hoof & Paw as a solo operation, not a franchise, not a large agency with rotating staff. That means when you hire Hoof & Paw, you know exactly who is coming to your door.
 
-She's insured and bonded, which protects both you and your pet. She's built her knowledge through hands-on experience with dogs, cats, and horses across Broward County. And she brings the kind of personal investment in each animal that you simply can't scale across a roster of dozens of employees.
+She's built her knowledge through hands-on experience with dogs, cats, and horses across Broward County. And she brings the kind of personal investment in each animal that you simply can't scale across a roster of dozens of employees.
 
 ### What's Included in Every Walk
 - A consistent, familiar face your dog comes to trust
@@ -232,7 +232,7 @@ If you're in Plantation, Davie, Cooper City, Sunrise, or Southwest Ranches and l
     slug: "pet-sitting-horse-care-broward",
     title: "Pet Sitting and Horse Care in Broward County: What to Look For",
     date: "2025-11-20",
-    author: "Hoof & Paw Team",
+    author: "Hoof & Paw Pet Services",
     excerpt:
       "Finding a pet sitter who can handle both your household pets and your horses is rare. Here's what to look for, and why Southwest Ranches families trust Hoof & Paw.",
     content: `For most pet owners, finding a reliable pet sitter means finding someone trustworthy with dogs and cats. But in parts of Broward County, especially Southwest Ranches, Davie, and the agricultural pockets of Plantation, "pet owner" sometimes means managing a barn full of horses alongside a household of dogs and cats. Finding one person who can competently handle all of it is genuinely difficult.
@@ -295,7 +295,7 @@ If you're looking for someone who can answer all of those questions confidently 
     slug: "science-sniffing-dogs-mental-stimulation-walks",
     title: "The Science of Sniffing: Why Your Dog Needs More Than Just Exercise",
     date: "2025-12-10",
-    author: "Hoof & Paw Team",
+    author: "Hoof & Paw Pet Services",
     excerpt:
       "A tired dog isn't always a happy dog. Learn why sniff walks and mental stimulation are just as important as physical exercise, and how to build them into your dog's routine.",
     content: `Most dog owners know that exercise is important. But there's growing evidence, and a lot of practical experience among professional dog walkers, that physical exercise alone isn't enough to keep dogs truly satisfied. Mental stimulation, and specifically the act of sniffing, plays a huge role in your dog's wellbeing.
@@ -352,7 +352,7 @@ If your dog in Broward County could use more mental stimulation built into their
     slug: "dog-walking-broward-county-leash-training",
     title: "Leash Training Tips from a Professional Dog Walker in Broward County",
     date: "2026-01-08",
-    author: "Hoof & Paw Team",
+    author: "Hoof & Paw Pet Services",
     excerpt:
       "Pulling, lunging, zigzagging: leash problems are frustrating for everyone. A professional dog walker shares practical tips for building better leash manners in Broward County's neighborhoods.",
     content: `Leash walking is one of those things that sounds simple until you're actually doing it. Anyone who has been dragged down a Plantation sidewalk by a 60-pound Labrador or had a small terrier wrap its leash around their ankles for the fifth time in a block knows that a well-behaved dog on leash doesn't happen by accident.
@@ -410,7 +410,7 @@ If you're in Plantation, Davie, Cooper City, Sunrise, or elsewhere in Broward Co
     slug: "hurricane-prep-for-pets-in-broward-what-to-pack-and-where-to-go",
     title: "Hurricane Prep for Pets in Broward: What to Pack and Where to Go",
     date: "2026-02-12",
-    author: "Hoof & Paw Team",
+    author: "Hoof & Paw Pet Services",
     excerpt:
       "Hurricane season in South Florida is no time to improvise. Here's a practical guide to building a pet go-bag, finding pet-friendly shelters in Broward County, and preparing your horses before a storm.",
     content: `Hurricane season in South Florida runs from June through November, and Broward County is no stranger to the threat of major storms. For most families, the emergency planning conversation eventually comes down to the same uncomfortable question: what do we do with the pets?
@@ -487,7 +487,7 @@ If you want to talk through your hurricane plan for your pets or horses, give Sh
     slug: "can-dogs-see-themselves-in-the-mirror-the-truth-about-canine-self-awareness",
     title: "Can Dogs See Themselves in the Mirror? The Truth About Canine Self-Awareness",
     date: "2026-02-25",
-    author: "Hoof & Paw Team",
+    author: "Hoof & Paw Pet Services",
     excerpt:
       "Does your dog bark at their own reflection, or completely ignore it? The science of canine self-awareness is more fascinating than you might expect, and it reveals a lot about how dogs experience the world.",
     content: `If you've ever held a puppy up to a mirror and watched them paw at their own reflection, you've witnessed one of the more charming puzzles in animal behavior. Most dogs quickly lose interest in mirrors after a sniff or two. But what does that tell us about how dogs see themselves, and do they have any sense of self at all?
@@ -543,7 +543,7 @@ If you have questions about your dog's behavior or just want a caregiver who pay
     title:
       "Are Lizards Poisonous to Dogs in Florida? A Broward County Pet Owner's Complete Guide",
     date: "2026-02-10",
-    author: "Hoof & Paw Team",
+    author: "Hoof & Paw Pet Services",
     excerpt:
       "Brown anoles, iguanas, geckos, tegus, and Bufo toads: a species-by-species breakdown of what's actually dangerous to your dog in South Florida, what to do if your dog eats a lizard, and how to keep them safe in Broward County.",
     content: `If you have a dog in Broward County, you've probably watched them lunge at a lizard darting across the patio. South Florida has one of the most diverse reptile populations in the country, and most of it is living in your backyard. The question every local dog owner eventually asks is: what happens if my dog actually catches one?
@@ -669,7 +669,7 @@ If you want a dog walker or pet sitter who stays alert to local wildlife hazards
     slug: "hire-a-dog-walker-broward-county",
     title: "How to Hire the Right Dog Walker in Broward County",
     date: "2026-02-05",
-    author: "Hoof & Paw Team",
+    author: "Hoof & Paw Pet Services",
     excerpt:
       "Hiring a dog walker is a bigger decision than it looks. Here's what to look for, what questions to ask, and what red flags to avoid when finding someone you can trust with your dog in Broward County.",
     content: `Hiring a dog walker feels simple until you start thinking about what it actually involves. You're giving someone regular access to your home, trusting them with an animal you love, and relying on them to show up consistently, rain, shine, and South Florida humidity. In Broward County, where pet services have expanded rapidly, the options range from excellent to genuinely problematic.
@@ -679,7 +679,7 @@ Here's a practical guide to making the right hire.
 ## What to Look For Before You Even Call
 
 ### Insurance and Bonding
-This is non-negotiable. A professional dog walker should carry pet sitter liability insurance, which covers accidents involving your pet and your property. Bonding protects you against theft. These aren't signs of distrust; they're signs of professionalism. Anyone who balks at being asked about insurance is someone to move on from.
+Ask whether a walker carries liability insurance and bonding, what any policy covers, and whether it meets your requirements. Hoof & Paw does not currently carry pet-sitting liability insurance or bonding. Discuss this with Sheryl before booking.
 
 ### Real Experience with Dogs
 Loving dogs is not the same as understanding them. Ask specifically about experience: How long have they been walking dogs professionally? Have they worked with your breed or size? How do they handle a dog that reacts to other dogs on leash, or a dog that suddenly becomes unwell mid-walk?
@@ -705,7 +705,7 @@ The answers reveal a lot about how much someone has actually thought through the
 
 ## Red Flags to Watch For
 
-- No insurance or bonding, and dismissiveness when asked
+- Unclear or misleading answers about insurance or bonding
 - Unwillingness to provide references
 - Refusal to do a meet and greet before the first walk
 - Unclear or no communication about what happens during walks
@@ -723,7 +723,7 @@ It also means accountability. A local walker has a reputation in the community. 
 
 ## What Sheryl at Hoof & Paw Offers
 
-Sheryl runs Hoof & Paw as a solo, owner-operated business serving Plantation, Davie, Cooper City, Sunrise, and Southwest Ranches. She's insured and bonded, works with dogs as individuals rather than moving them through a high-volume schedule, and communicates directly: no app, no intermediary.
+Sheryl runs Hoof & Paw as a solo, owner-operated business serving Plantation, Davie, Cooper City, Sunrise, and Southwest Ranches. She works with dogs as individuals rather than moving them through a high-volume schedule, and communicates directly: no app, no intermediary.
 
 Every new client starts with a meet and greet. Sheryl takes time to understand your dog's temperament, routine, and any specific needs before the first walk. If something comes up during a walk, you hear from her directly, not after the fact.
 

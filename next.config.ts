@@ -1,4 +1,5 @@
 import type { NextConfig } from "next";
+import blogRedirects from "./src/content/blog-redirects.json";
 
 const nextConfig: NextConfig = {
   images: {
@@ -8,6 +9,12 @@ const nextConfig: NextConfig = {
   },
   async redirects() {
     return [
+      // Consolidated articles: preserve existing links with one-hop redirects.
+      ...Object.entries(blogRedirects).map(([source, destination]) => ({
+        source: `/blog/${source}`,
+        destination: `/blog/${destination}`,
+        permanent: true,
+      })),
       // Old location pages → new area pages
       {
         source: "/weston-dog-sitting-and-walking",

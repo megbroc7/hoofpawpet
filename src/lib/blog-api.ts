@@ -2,6 +2,7 @@ import {
   getAllBlogPosts as getFallbackBlogPosts,
   type BlogPost,
 } from "@/content/blog";
+import { prepareBlogPosts } from "@/lib/blog-editorial";
 
 interface ActaPost {
   slug: string;
@@ -60,7 +61,7 @@ function transformPost(post: ActaPost): BlogPost {
     slug: post.slug,
     title: post.title,
     date: getPublishedDate(post.published_at),
-    author: "Hoof & Paw Team",
+    author: "Hoof & Paw Pet Services",
     excerpt: buildExcerpt(post),
     content: post.content,
     readingTime: calculateReadingTime(post.content),
@@ -93,10 +94,10 @@ async function fetchActaBlogPosts(): Promise<BlogPost[]> {
 
 async function loadBlogPosts(): Promise<BlogPost[]> {
   try {
-    return await fetchActaBlogPosts();
+    return prepareBlogPosts(await fetchActaBlogPosts());
   } catch (error) {
     console.error("Falling back to static blog posts:", error);
-    return getFallbackBlogPosts();
+    return prepareBlogPosts(getFallbackBlogPosts());
   }
 }
 
