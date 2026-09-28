@@ -1,3 +1,5 @@
+import { getAllAreas } from "@/content/areas";
+
 const BASE_URL =
   process.env.NEXT_PUBLIC_BASE_URL || "https://www.hoofpawpet.com";
 
@@ -28,11 +30,12 @@ export function localBusinessSchema() {
       longitude: -80.2339,
     },
     areaServed: [
-      { "@type": "City", name: "Plantation", addressRegion: "FL" },
-      { "@type": "City", name: "Davie", addressRegion: "FL" },
-      { "@type": "City", name: "Cooper City", addressRegion: "FL" },
-      { "@type": "City", name: "Sunrise", addressRegion: "FL" },
-      { "@type": "City", name: "Southwest Ranches", addressRegion: "FL" },
+      ...getAllAreas().map((area) => ({
+        "@type": "City",
+        name: area.name,
+        addressRegion: area.state,
+      })),
+      { "@type": "AdministrativeArea", name: "Broward County", addressRegion: "FL" },
     ],
     openingHoursSpecification: [
       {
