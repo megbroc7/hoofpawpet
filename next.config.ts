@@ -11,7 +11,7 @@ const nextConfig: NextConfig = {
       // Old location pages → new area pages
       {
         source: "/weston-dog-sitting-and-walking",
-        destination: "/areas/plantation",
+        destination: "/areas/weston",
         permanent: true,
       },
       {
@@ -37,7 +37,7 @@ const nextConfig: NextConfig = {
       },
       {
         source: "/horse-care-cooper-city",
-        destination: "/areas/cooper-city",
+        destination: "/services/horse-care",
         permanent: true,
       },
       {
