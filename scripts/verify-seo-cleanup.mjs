@@ -28,7 +28,9 @@ if (base) {
       assert.equal(response.status, 200, url);
       const html = await response.text();
       checkHtml(html, url);
-      assert.ok(html.includes(`rel="canonical" href="https://www.hoofpawpet.com${url === "/" ? "/" : url}"`), `${url}: canonical`);
+      const canonical = html.match(/<link rel="canonical" href="([^"]+)"/);
+      assert.ok(canonical, `${url}: missing canonical`);
+      assert.equal(new URL(canonical[1]).href, new URL(url, "https://www.hoofpawpet.com").href, `${url}: canonical`);
       for (const [, replacement] of corrections[url.split("/").at(-1)] ?? []) {
         if (replacement) assert.ok(html.includes(replacement), `${url}: missing correction`);
       }

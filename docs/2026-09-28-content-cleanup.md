@@ -33,7 +33,9 @@ Acta's editorial calendar/instructions should use one article per search intent,
 - `npm run build`: passed with the production Acta feed; 18 blog article paths generated.
 - `node scripts/verify-seo-cleanup.mjs`: passed, checking 42 built HTML pages, all 12 one-hop redirects, destination existence, internal links and known insurance corrections.
 - Vercel domain configuration saved with `redirectStatusCode: 308`; public HTTP readback returned 308 and preserved `/blog` plus all three UTM parameters.
-- Production deployment and full public-page verification: recorded below after publishing.
+- Production deployment: **READY**, `dpl_DFGhXTbURyg2HeYodBr5yQBFWrbT`, code commit `7315ee3`, https://hoofpawpet-aq1awxq9y-megbroc7s-projects.vercel.app; served publicly at https://www.hoofpawpet.com.
+- `node scripts/verify-seo-cleanup.mjs https://www.hoofpawpet.com`: **passed** for all 40 public pages, 18 retained articles, all 12 redirects (with query preservation), page-specific canonical URLs, insurance corrections and internal links.
+- Runtime error query for this deployment returned no results. This is a point-in-time check, not ongoing monitoring.
 
 ## Google work
 
