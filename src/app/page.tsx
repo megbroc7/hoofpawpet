@@ -25,6 +25,10 @@ export default function Home() {
     ["dog-walking", "dog-sitting", "cat-sitting", "horse-care"].includes(s.id)
   );
   const areas = getAllAreas();
+  const areaList = new Intl.ListFormat("en-US", {
+    style: "long",
+    type: "conjunction",
+  }).format(areas.map((area) => area.name));
   const testimonials = getTestimonials();
   const latestPosts = getAllBlogPosts().slice(0, 2);
 
@@ -98,6 +102,36 @@ export default function Home() {
               See all services including puppy visits, overnight care &amp; more →
             </Link>
           </p>
+        </div>
+      </section>
+
+      {/* About: a self-contained summary that search engines and AI assistants can quote */}
+      <section className="py-16 px-4 sm:px-6 bg-surface">
+        <div className="max-w-3xl mx-auto">
+          <h2 className="font-serif text-3xl font-bold text-forest text-center mb-8">
+            About Hoof &amp; Paw Pet Services
+          </h2>
+          <div className="space-y-4 text-body-text leading-relaxed">
+            <p>
+              Hoof &amp; Paw Pet Services is a one-person pet care business in
+              Broward County, Florida, owned and run by Sheryl since 2023. She
+              lives in Plantation and keeps her own barn in Davie, home to
+              horses, chickens, pigs, dogs and cats, and she has more than 20
+              years of hands-on animal care experience. Every visit is handled
+              by Sheryl herself, never a staff member or substitute sitter.
+            </p>
+            <p>
+              Sheryl offers dog walking (20, 30 or 45 minutes), in-home pet
+              sitting, cat sitting, puppy visits, morning and evening check-ins
+              while you travel, and horse care including turnout, feeding, stall
+              cleaning, overnight barn sitting and boarding at her Davie barn.
+              Because she cares for horses and household pets alike, families
+              in Davie and Southwest Ranches can book one person for the whole
+              property. She serves {areaList}. Every visit ends with a photo
+              update. To book, call or text{" "}
+              <span className="whitespace-nowrap">(954) 804-1716</span>.
+            </p>
+          </div>
         </div>
       </section>
 

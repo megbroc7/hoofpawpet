@@ -3,6 +3,11 @@ import { getAllAreas } from "@/content/areas";
 const BASE_URL =
   process.env.NEXT_PUBLIC_BASE_URL || "https://www.hoofpawpet.com";
 
+// Public Maps URL of the Google Business Profile that survived the Sep 2026
+// duplicate merge. Kept separate from ReviewCTA's link, which may later become
+// a g.page review short link.
+const GOOGLE_MAPS_URL = "https://www.google.com/maps?cid=1085558871145528338";
+
 export function localBusinessSchema() {
   return {
     "@context": "https://schema.org",
@@ -11,6 +16,17 @@ export function localBusinessSchema() {
     description:
       "Personal pet sitting and horse care by Sheryl in Broward County, FL.",
     url: BASE_URL,
+    // Solo business: naming Sheryl ties the brand to a real person for
+    // search engines and AI assistants.
+    founder: {
+      "@type": "Person",
+      name: "Sheryl",
+      jobTitle: "Owner",
+      url: `${BASE_URL}/about`,
+      image: `${BASE_URL}/images/sheryl-hero.jpg`,
+      knowsAbout: ["Pet sitting", "Dog walking", "Cat care", "Horse care"],
+    },
+    foundingDate: "2023",
     telephone: "+19548041716",
     email: "Hoofandpawpetservice@gmail.com",
     image: `${BASE_URL}/images/dog-walking.jpg`,
@@ -95,6 +111,7 @@ export function localBusinessSchema() {
       ],
     },
     sameAs: [
+      GOOGLE_MAPS_URL,
       "https://www.facebook.com/p/Hoof-and-Paw-Pet-Service-61574051387096/",
       "https://www.yelp.com/biz/hoof-and-paw-pet-services-plantation",
       "https://nextdoor.com/pages/hoof-and-paw-pet-service-plantation-fl/",
@@ -146,9 +163,11 @@ export function articleSchema(post: {
     headline: post.title,
     description: post.excerpt,
     datePublished: post.date,
+    // Posts are bylined to the business, not a person.
     author: {
-      "@type": "Person",
+      "@type": "Organization",
       name: post.author,
+      url: BASE_URL,
     },
     publisher: {
       "@type": "Organization",
